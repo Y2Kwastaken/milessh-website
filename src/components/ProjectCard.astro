@@ -17,7 +17,9 @@ const { href, img, title } = Astro.props;
 				{title}
 			</h2>
 		</a>
-		<slot />
+		<div class="link-card-body">
+			<slot />
+		</div>
 	</div>
 </li>
 <style>
@@ -44,7 +46,8 @@ const { href, img, title } = Astro.props;
 		color: white;
 		text-decoration: none;
 		margin: 0;
-		font-size: 1.25rem;
+		margin-left: 0.5rem;
+		font-size: 2.35rem;
 	}
 	.link-card a {
 		display: flex;
@@ -53,12 +56,17 @@ const { href, img, title } = Astro.props;
 	}
 	.link-card img {
 		vertical-align: middle;
-		width: 30px;
-		height: 30px;
+		width: 50px;
+		height: 50px;
 	}
 	.link-card:is(:hover, :focus-within) {
 		background-position: 0;
 		background-image: var(--accent-gradient);
+	}
+	.link-card-body {
+		cursor: default;
+		display: flex;
+		margin: 0.5rem;
 	}
 	/* h2 {
 		color: white;

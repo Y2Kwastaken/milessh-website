@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="project-voidcr-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.1449053"
+     inkscape:cx="276.44207"
+     inkscape:cy="297.40451"
+     inkscape:window-width="1920"
+     inkscape:window-height="1040"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:266.667px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000080"
+       x="269.89627"
+       y="230.36913"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="269.89627"
+         y="230.36913"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.667px;font-family:STIX;-inkscape-font-specification:STIX" /></text>
+    <rect
+       style="fill:#000000"
+       id="rect1"
+       width="512"
+       height="512"
+       x="0.72357607"
+       y="5.2680557e-06" />
+    <path
+       sodipodi:type="star"
+       style="fill:#f2f2f2"
+       id="path3"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="28.823344"
+       sodipodi:cy="27.076475"
+       sodipodi:r1="25.464778"
+       sodipodi:r2="12.732389"
+       sodipodi:arg1="0.10308161"
+       sodipodi:arg2="0.73140014"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 54.15295,29.696779 38.299296,35.580595 34.158565,51.976081 23.663675,38.71656 6.7910849,39.844974 16.15854,25.766323 9.8714372,10.068235 26.155732,14.626672 39.14268,3.7963063 39.839472,20.692226 Z"
+       inkscape:transform-center-x="-1.6486741"
+       inkscape:transform-center-y="0.80971847" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:260px;font-family:STIX;-inkscape-font-specification:STIX;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;mix-blend-mode:normal;fill:#f2f2f2"
+       x="4.3671727"
+       y="333.65204"
+       id="text3"><tspan
+         id="tspan3"
+         x="4.3671727"
+         y="333.65204"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:260px;font-family:Vazirmatn;-inkscape-font-specification:Vazirmatn">Void</tspan></text>
+  </g>
+</svg>

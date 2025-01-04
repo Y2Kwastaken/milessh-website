@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+import ProjectCard from "../components/ProjectCard.astro"
 ---
 
 <Layout title="Y2K_ | Miles">
@@ -95,7 +96,7 @@ import Card from "../components/Card.astro";
                 >
                     <a> Since 2021 </a>
                 </Card>
-                <Card title="Maven" img="maven-logo.svg", alt="Maven Logo">
+                <Card title="Maven" img="maven-logo.svg" , alt="Maven Logo">
                     <a> Since 2021 </a>
                 </Card>
                 <Card title="MongoDB" img="mongodb-logo.svg" alt="MongoDB Logo">
@@ -123,16 +124,31 @@ import Card from "../components/Card.astro";
                 >
                     <a>Since 2024 </a>
                 </Card>
-                <Card title="C" img="c-language-logo.svg" alt="The C Language Logo">
+                <Card
+                    title="C"
+                    img="c-language-logo.svg"
+                    alt="The C Language Logo"
+                >
                     <a>Since 2024</a>
                 </Card>
             </div>
         </div>
         <div style="width: 100%;" class="card-container">
             <h2 class="text-gradient">Projects</h2>
-            <p style="color: white">
-                I Don't have anything impressive to show right now I'll post projects here later
-            </p>
+            <ProjectCard
+                title="VoidCR"
+                img="project-voidcr-logo.svg"
+                alt="voidcr project logo"
+                href="https://github.com/Y2Kwastaken/VoidCR"
+            >
+            <div style="width: 100%;">
+                <a style="width: 100%;">VoidCR is a patched based server software for an in development indie game CosmicReach</a>
+                <p>
+                    This project balances on API design, working with closed source java code, and working on bug fixes and optimizations. To an
+                    already existing game project.
+                </p>
+            </div>
+            </Card>
         </div>
     </div>
 </Layout>
