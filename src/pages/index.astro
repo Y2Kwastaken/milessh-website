@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
-import ProjectCard from "../components/ProjectCard.astro"
+import ProjectCard from "../components/ProjectCard.astro";
 ---
 
 <Layout title="Y2K_ | Miles">
@@ -99,16 +99,6 @@ import ProjectCard from "../components/ProjectCard.astro"
                 <Card title="Maven" img="maven-logo.svg" , alt="Maven Logo">
                     <a> Since 2021 </a>
                 </Card>
-                <Card title="MongoDB" img="mongodb-logo.svg" alt="MongoDB Logo">
-                    <a>Since 2022</a>
-                </Card>
-                <Card
-                    title="SQL"
-                    img="sql-logo.svg"
-                    alt="Generic Database Logo"
-                >
-                    <a>Since 2022</a>
-                </Card>
                 <Card
                     title="Gradle"
                     img="gradle-logo.svg"
@@ -124,13 +114,6 @@ import ProjectCard from "../components/ProjectCard.astro"
                 >
                     <a>Since 2024 </a>
                 </Card>
-                <Card
-                    title="C"
-                    img="c-language-logo.svg"
-                    alt="The C Language Logo"
-                >
-                    <a>Since 2024</a>
-                </Card>
             </div>
         </div>
         <div style="width: 100%;" class="card-container">
@@ -141,14 +124,134 @@ import ProjectCard from "../components/ProjectCard.astro"
                 alt="voidcr project logo"
                 href="https://github.com/Y2Kwastaken/VoidCR"
             >
-            <div style="width: 100%;">
-                <a style="width: 100%;">VoidCR is a patched based server software for an in development indie game CosmicReach</a>
-                <p>
-                    This project balances on API design, working with closed source java code, and working on bug fixes and optimizations. To an
-                    already existing game project.
-                </p>
-            </div>
-            </Card>
+                <div style="width: 100%;">
+                    <a style="width: 100%;">
+                        VoidCR is a patched based server software for an in
+                        development indie game CosmicReach</a
+                    >
+                    <p>
+                        This project balances on API design, working with closed
+                        source java code, and working on bug fixes and
+                        optimizations. To an already existing game project.
+                    </p>
+                </div>
+            </ProjectCard>
+            <ProjectCard
+                title="PaperMC Contributions"
+                img="papermc_logo.min.svg"
+                alt="papermc project logo"
+                href="https://github.com/PaperMC/Paper/pulls?q=sort%3Aupdated-desc+is%3Apr+author%3AY2Kwastaken+is%3Amerged"
+            >
+                <div style="width: 100%">
+                    <a
+                        style="width:100%; text-decoration: underline; color:inherit;"
+                        href="https://github.com/PaperMC/Paper"
+                    >
+                        PaperMC is the most widely used, high-performance
+                        Minecraft server that aims to fix gameplay and mechanics
+                        inconsistencies.
+                    </a>
+                    <p>
+                        I have contributed fixes and API to PaperMC and their
+                        previous upstream project SpigotMC
+                    </p>
+                    <p>
+                        SpigotMC contributions are not public due to a
+                        restrictive CLA so I will list them below:
+                        <ul>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/a7cfc778fdb0f92dd0574939d6f81fbfa33742a0"
+                                    >Add InventoryView#setTitle</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/6752f1d63ec3f8a94480b45e8dfc20e7777e3f2b"
+                                    >Add PlayerSignOpenEvent</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/2c1b5f78fc49dae41bec29d205c70a6355f74c5c"
+                                    >Add "Enchantment Roll" API to enchant items
+                                    according to Minecraft mechanics</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/1dbdbbed49fec30b440a243f75998c3936637376"
+                                    >Remove unnecessary sign ticking</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/2ab4508c0862bfe93ce9a0e2ba913913601a1814"
+                                    >Add BlockData#getMapColor</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/3dda99c06f7fe23f5f9713dbd061b9598744e223"
+                                    >Add ServerTickManager API</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/9fde4c037cb8b8c2e44b5f06d2029f6e8180f79d"
+                                    >Improve ItemFactory#enchantItem consistency</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/ca3bc370757940c36b25d55860a199ae9e4371b7"
+                                    >Add more translation keys</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/eae9f760c9849290b9e6ffc08fc93193df206a3d"
+                                    >Convert InventoryView to interface</a
+                                >
+                            </li>
+
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/ab29122cf189c1553147b5ccf9dc662b956c5c89"
+                                    >HumanEntity#openInventory(InventoryView)
+                                    should only support views belonging to the
+                                    player</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/9c3bd439054771ce89ed69b8f74f5eba2ff4fc51"
+                                    >Add API for InventoryView derivatives</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    style="text-decoration: underline; color:inherit"
+                                    href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/72ce823cda080f8eaa013bdc47cc8e8b526b5ed0"
+                                    >Add specific getTopInventory methods for
+                                    InventoryView derivatives</a
+                                >
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </ProjectCard>
         </div>
     </div>
 </Layout>
