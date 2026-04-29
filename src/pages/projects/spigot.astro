@@ -1,0 +1,55 @@
+---
+import "../../styles/global.css";
+import "./spigot.css"; // Located in the same directory
+import Navbar from "../../components/Navbar.astro";
+import patchData from "../../data/spigot-patches.json";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Miles | SpigotMC Contributions</title>
+  </head>
+  <body>
+    <Navbar />
+    
+    <main class="spigot-log-container">
+      <header class="log-header">
+        <a href="/projects" class="back-link">← Back to My projects</a>
+        <h1 class="page-title">SpigotMC Core Log</h1>
+        <p class="page-intro">
+          A comprehensive listing and audit of technical contributions to the SpigotMC project during my time as contributor from 2023-2024. SpigotMC does not
+          have a traditionally open source view for the pull request process as such below is a stub of all of my commits to the SpigotMC project. These commits are
+          a static history of my time contributing to SpigotMC.
+        </p>
+      </header>
+
+      <div class="feature-grid">
+        {patchData.map((item) => (
+          <section class="feature-block">
+            <div class="feature-info">
+              <h2 class="feature-title">{item.feature}</h2>
+              <p class="feature-impact">{item.impact}</p>
+            </div>
+            
+            <div class="patch-links">
+              {item.links.map((link) => (
+                <a 
+                  href={link.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="patch-link"
+                >
+                  <span class="patch-icon">></span>
+                  <span class="patch-text">{link.text}</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+    </main>
+  </body>
+</html>

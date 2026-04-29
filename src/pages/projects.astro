@@ -1,0 +1,39 @@
+---
+import "../styles/global.css";
+import "../styles/projects.css";
+import Navbar from "../components/Navbar.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+
+import projectsData from "../data/projects.json";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Miles | Projects</title>
+    </head>
+    <body>
+        <Navbar />
+
+        <main class="projects-container">
+            <h1 class="page-title">My Projects</h1>
+
+            <div class="projects-grid">
+                {
+                    projectsData.map((project) => (
+                        <ProjectCard
+                            title={project.title}
+                            tech={project.tech}
+                            description={project.description}
+                            links={project.links}
+                        />
+                    ))
+                }
+            </div>
+        </main>
+    </body>
+</html>

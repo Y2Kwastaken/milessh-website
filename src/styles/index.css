@@ -1,0 +1,72 @@
+@import url(global.css);
+
+.hero-container {
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-header {
+    align-self: center;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    line-height: 1;
+}
+
+.hero-subtitle {
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    letter-spacing: 0.05em;
+}
+
+.featured-section {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.section-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(45, 51, 59, 0.3);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.project-item:hover {
+    padding-left: 1rem;
+    border-bottom-color: var(--primary-color);
+}
+
+.project-name {
+    font-weight: 600;
+    color: var(--text-main);
+    font-size: 1.1rem;
+}
+
+.project-tech {
+    font-family: monospace;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}

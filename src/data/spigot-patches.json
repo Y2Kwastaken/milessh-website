@@ -1,0 +1,126 @@
+[
+  {
+    "feature": "InventoryView Interface Transition",
+    "impact": "The beginning architecting of a completely new approach to the Inventory API system. This group of PRs is a first step in prepping the API for that transition by moving InventoryView to an interface. This is a breaking change and required in depth technical changes as well as runtime bytecode rewriting to maintain compatibility through Spigot's Commodore layer.",
+    "links": [
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/9c3bd439054771ce89ed69b8f74f5eba2ff4fc51",
+        "text": "InventoryView Derivatives API"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/76fd7c056d2bd0a311e62f9f676c0c468f3f920e",
+        "text": "CraftMenus Utility Refactor"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/71714f0c114a0ab846e8c3a8e1092a92a4fc79a2",
+        "text": "InventoryView API Transition"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/eae9f760c9849290b9e6ffc08fc93193df206a3d",
+        "text": "CraftAbstractInventoryView Implementation"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/ea073278d25761bee8961274d1278716ce49da99",
+        "text": "HumanEntity View Handling"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/ab29122cf189c1553147b5ccf9dc662b956c5c89",
+        "text": "CraftHumanEntity InventoryView Precondition"
+      }
+    ]
+  },
+  {
+    "feature": "View Builder & Factory Implementation",
+    "impact": "Engineered the ViewBuilder and MenuBuilder factory patterns to allow for decoupled, location-aware GUI creation. This system allows developers to build complex container views (like Beacons or Anvils) with precise data management through a new \"fake block entity\" concept.",
+    "links": [
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/3d4295ccbf0bd9acb4ea93581f7b65cc9d2f018f",
+        "text": "InventoryViewBuilder API"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/643b231025217ba902bad1b764f11e47a330fdc2",
+        "text": "InventoryVIewBuilder Implementation"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/e28af087d58f90b8600ad24d2035ba18aed57d1f",
+        "text": "AbstractViewBuilder Logic"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/ea0b2d1cf5f6b77b98414223a94fb0efa653cfa0",
+        "text": "Improve Builder Chaining"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/45c206f2c56c8e38130ba2e0af593759c9864fc0",
+        "text": "CraftMenuBuilder Internals"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/1fc1020ad0d91a1cf6bfaae6f0441c24be701fbf",
+        "text": "Legacy InventoryType Enum Expansion"
+      }
+    ]
+  },
+  {
+    "feature": "NMS Container & Sync Patching",
+    "impact": "Developed internal NMS (Net Minecraft Server) patches for specialized containers including Beacons, Crafters, and Anvils. This involved overriding container logic to ensure Bukkit events fire correctly during networking synchronization and client-side interactions.",
+    "links": [
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/72ce823cda080f8eaa013bdc47cc8e8b526b5ed0",
+        "text": "Improve Inventory API Type Safety Guarentees"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/50e8a00b9c5e18c097bd041356a94962450467bf",
+        "text": "API: Improve Inventory API Type Safety Guarentees"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/d53d0d0b1987545d64ef1de1e53403893ff684fc",
+        "text": "CraftCrafterView Logical Fix"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/00fc9fb641cc1c7cf0e6b4f4a88afcbff0cef1b9",
+        "text": "CraftInventoryAnvil Sync Fix"
+      }
+    ]
+  },
+  {
+    "feature": "Core Systems & Entity State",
+    "impact": "Low-level systems maintenance focused on server performance and entity synchronization. Contributions include implementing the ServerTickRateManager, patching various bugs.",
+    "links": [
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/3dda99c06f7fe23f5f9713dbd061b9598744e223",
+        "text": "ServerTickRateManager Patch"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/1dbdbbed49fec30b440a243f75998c3936637376",
+        "text": "Sign TileEntity Logic Optimization"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/659728d2a7d451c7aa7f7f610a04554a531d2f99",
+        "text": "EntityCreeper Data Patch"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/19c8ef9ae3dcb081bba98b324f82a2c72279890b",
+        "text": "Villager Entity Patch"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/c7d6428f2823d7c90409a2bf3cd7af6e8d25413d",
+        "text": "EndPlatformFeature Fix"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/82af5dc60eae0a6223be15ea4f69c560521c97a9",
+        "text": "API: PlayerSignOpenEvent"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/6752f1d63ec3f8a94480b45e8dfc20e7777e3f2b",
+        "text": "Impl: PlayerSignOpenEvent"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/commits/46c7fc3b1b46b3dd5481021cd48833291cd88a53",
+        "text": "CraftSign Interaction"
+      },
+      {
+        "url": "https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/commits/d41195857481c962cecac4164e329bebf46a5ce0",
+        "text": "BlockData Map Color"
+      }
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+---
+import "../../styles/global.css";
+import "./rpcmarket.css";
+import Navbar from "../../components/Navbar.astro";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Miles | RPC Marketplace</title>
+    </head>
+    <body>
+        <Navbar />
+
+        <main class="case-study-container">
+            <a href="/projects" class="back-link">← Back to Projects</a>
+
+            <header class="project-header">
+                <h1 class="project-title">RPC Marketplace</h1>
+                <div class="tech-stack-pills">
+                    <span class="pill">React 19</span>
+                    <span class="pill">Spring Boot 4.0</span>
+                    <span class="pill">Java 21</span>
+                    <span class="pill">Hedera Hashgraph</span>
+                    <span class="pill">MySQL</span>
+                    <span class="pill">Docker</span>
+                </div>
+                <p class="lead-text">
+                    A containerized, microservice-driven e-commerce platform
+                    where traditional web infrastructure meets distributed
+                    ledger technology.
+                </p>
+                <p class="body-text">
+                    For this academic project, Our team was tasked with building
+                    a full-stack Web3 crypto currency driven marketplace. I
+                    focused heavily on backend and cryptocurrency orchestration,
+                    ensuring that user data, inventory states, and real-time
+                    cryptocurrency transactions remained perfectly synchronized
+                    across multiple independent systems.
+                </p>
+            </header>
+
+            <section>
+                <h2 class="section-title">The Core Architecture</h2>
+                <div class="architecture-grid">
+                    <div class="arch-card">
+                        <h3>The Client Layer</h3>
+                        <p>
+                            A responsive React interface focused on immediate
+                            user feedback. To reduce server load and improve
+                            perceived performance, I helped implemented custom UI
+                            features like client-side image previews, ensuring
+                            users can validate their listings before any heavy
+                            network requests are made.
+                        </p>
+                    </div>
+
+                    <div class="arch-card">
+                        <h3>The RESTful Layer</h3>
+                        <p>
+                            A Java Spring Boot backend acting as the central
+                            traffic controller. It handles stateless,
+                            token-based user authentication and strictly
+                            validates all incoming requests before communicating
+                            with the database or the external cryptocurrency
+                            network.
+                        </p>
+                    </div>
+
+                    <div class="arch-card">
+                        <h3>The Ledger Integration</h3>
+                        <p>
+                            A dedicated Java service isolated from the main web
+                            traffic. It safely manages interactions with the
+                            Hedera Hashgraph network, provisioning secure user
+                            wallets behind the scenes and processing native $RPC
+                            token transfers without ever exposing private keys
+                            to the frontend.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="challenge-section">
+                <h2 class="section-title" style="margin-top: 0;">
+                    Engineering Challenge: Distributed State Management
+                </h2>
+                <p class="body-text">
+                    The most significant architectural hurdle in this project
+                    was bridging a traditional relational database (MySQL) with
+                    a decentralized blockchain (Hedera).
+                </p>
+                <p class="body-text">
+                    In a standard web app, purchasing an item is a single
+                    database transaction. If it fails, everything rolls back.
+                    However, when a cryptocurrency network is involved, you run
+                    the risk of the database updating successfully but the
+                    blockchain transfer failing (or vice versa), resulting in
+                    lost items or lost funds.
+                </p>
+
+                <h3 class="challenge-subtitle">
+                    The Solution: Safe Transaction Flow
+                </h3>
+                <ol class="solution-list">
+                    <li>
+                        <strong>Pre-Validation:</strong> The Spring Boot backend first
+                        queries the MySQL database to verify the item is in stock,
+                        and concurrently queries the Hedera network to verify the
+                        buyer has sufficient $RPC funds.
+                    </li>
+                    <li>
+                        <strong>State Locking:</strong> The item is temporarily marked
+                        as "Pending" in the database, preventing other users from
+                        purchasing it simultaneously (preventing race conditions).
+                    </li>
+                    <li>
+                        <strong>Ledger Execution:</strong> The isolated Crypto Service
+                        constructs and submits the transaction to the Hedera network,
+                        awaiting a consensus finality receipt.
+                    </li>
+                    <li>
+                        <strong>Reconciliation:</strong> Only upon receiving mathematical
+                        proof of the transfer from the blockchain does the database
+                        permanently transfer item ownership and record the order history.
+                        If the ledger fails, the database lock is released safely.
+                    </li>
+                </ol>
+            </section>
+
+            <section>
+                <h2 class="section-title">Infrastructure & Reliability</h2>
+                <p class="body-text">
+                    To guarantee stability across these interacting services,
+                    the entire environment is fully containerized using Docker.
+                    Furthermore, I established an automated CI/CD pipeline.
+                    Every code change triggers isolated testing environments
+                    where the frontend is validated, the backend business logic
+                    is verified, and the crypto service executes mock
+                    transactions against a Hedera testnet, ensuring deployment
+                    confidence.
+                </p>
+            </section>
+        </main>
+    </body>
+</html>

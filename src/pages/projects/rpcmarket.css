@@ -1,0 +1,168 @@
+/* Container & Navigation */
+.case-study-container {
+    max-width: 900px;
+    margin: 5rem auto;
+    padding: 0 2rem;
+}
+
+.back-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.back-link:hover {
+    opacity: 0.8;
+    transform: translateX(-4px);
+}
+
+/* Header & Typography */
+.project-header {
+    margin-bottom: 5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 3rem;
+}
+
+.project-title {
+    font-size: 3.5rem;
+    color: var(--text-main);
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+}
+
+.section-title {
+    color: var(--text-main);
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: -0.02em;
+}
+
+/* Narrative Text Classes */
+.lead-text {
+    font-size: 1.25rem;
+    color: var(--text-main);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+}
+
+.body-text {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+}
+
+/* Tech Stack Pills */
+.tech-stack-pills {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+}
+
+.pill {
+    background: var(--surface-color);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: monospace;
+    border: 1px solid var(--border-color);
+    transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.pill:hover {
+    border-color: var(--primary-color);
+    background: transparent;
+}
+
+/* Architecture Grid */
+.architecture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 6rem;
+}
+
+.arch-card {
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 2.5rem;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.arch-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--primary-color);
+    box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.4);
+}
+
+.arch-card h3 {
+    color: var(--text-main);
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.arch-card p {
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* Highlighted Challenge Section */
+.challenge-section {
+    background: var(--surface-color);
+    padding: 4rem;
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 6rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Accent line at the top of the challenge box */
+.challenge-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--primary-color);
+}
+
+.challenge-subtitle {
+    color: var(--text-main);
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.solution-list {
+    color: var(--text-muted);
+    line-height: 1.8;
+    padding-left: 1.5rem;
+    margin: 0;
+}
+
+.solution-list li {
+    margin-bottom: 1rem;
+}
+
+.solution-list strong {
+    color: var(--text-main);
+}

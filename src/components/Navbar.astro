@@ -1,0 +1,32 @@
+---
+import "../styles/global.css";
+import "./Navbar.css";
+
+const navLinks = [
+  { name: "Home", href: "/" },
+  { name: "Projects", href: "/projects" },
+  { name: "Docs", href: "/docs" },
+  { name: "GitHub", href: "https://github.com/Y2Kwastaken", external: true },
+];
+---
+
+<header class="navbar-wrapper">
+  <nav class="navbar-container">
+    <ul class="nav-links">
+      {
+        navLinks.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class="nav-item"
+              target={link.external ? "_blank" : undefined}
+              rel={link.external ? "noopener noreferrer" : undefined}
+            >
+              {link.name}
+            </a>{" "}
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>

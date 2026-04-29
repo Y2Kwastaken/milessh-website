@@ -1,0 +1,115 @@
+.docs-content {
+    max-width: 90%;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.back-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: monospace;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.doc-header {
+    margin-bottom: 3rem;
+    border-bottom: 1px solid rgba(45, 51, 59, 0.5);
+    padding-bottom: 2rem;
+}
+
+.doc-header h1 {
+    font-size: 2.5rem;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+
+.doc-author {
+    font-family: monospace;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+/* Index Page Cards */
+.docs-index-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.doc-index-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.doc-index-card:hover {
+    border-color: var(--primary-color);
+}
+
+.doc-index-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.doc-index-label h2 {
+    color: var(--text-main);
+    font-size: 1.2rem;
+}
+
+.view-author {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+}
+
+.view-text {
+    color: var(--primary-color);
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+/* Markdown Rendering Scope */
+.markdown-body {
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+.markdown-body h2 {
+    color: var(--text-main);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.markdown-body code {
+    font-family: monospace;
+    background-color: var(--surface-color);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    color: var(--primary-color);
+}
+
+.markdown-body pre {
+    background-color: #0d1117;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+.markdown-body pre code {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+}

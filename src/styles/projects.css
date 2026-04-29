@@ -1,0 +1,93 @@
+@import url(global.css);
+
+.projects-container {
+    max-width: 1000px; /* Slightly wider to accommodate side-by-side cards */
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    margin-bottom: 3rem;
+    color: var(--text-main);
+}
+
+/* The New Grid System */
+.projects-grid {
+    display: grid;
+    /* Automatically creates columns that are at least 350px wide */
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem; /* Replaces the old margin-bottom */
+}
+
+.project-card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem; /* Reduced for density */
+    transition: border-color 0.3s ease;
+    
+    /* Flexbox setup to push links to the bottom */
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    border-color: var(--primary-color);
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(45, 51, 59, 0.5);
+    padding-bottom: 0.75rem;
+}
+
+.project-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.project-tech {
+    font-family: monospace;
+    color: var(--primary-color);
+    font-size: 0.85rem;
+}
+
+.project-description {
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.project-links-container {
+    margin-top: auto;
+}
+
+.project-link {
+    display: inline-block;
+    color: var(--text-main);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 0.1rem;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}

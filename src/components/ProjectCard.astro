@@ -1,0 +1,42 @@
+---
+import "./ProjectCard.css";
+
+interface Link {
+    url: string;
+    text: string;
+    external: boolean;
+}
+
+interface Props {
+    title: string;
+    tech: string;
+    description: string;
+    links: Array<Link>;
+}
+
+const { title, tech, description, links } = Astro.props;
+---
+
+<article class="project-card">
+    <header class="project-header">
+        <h2 class="project-title">{title}</h2>
+        <span class="project-tech">{tech}</span>
+    </header>
+    <p class="project-description">
+        {description}
+    </p>
+    <div class="project-links">
+        {
+            links.map((link) => (
+                <a
+                    href={link.url}
+                    target={link.external ? "_blank" : undefined}
+                    rel={link.external ? "noopener noreferrer" : undefined}
+                    class="project-link"
+                >
+                    {link.text}
+                </a>
+            ))
+        }
+    </div>
+</article>

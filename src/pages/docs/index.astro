@@ -1,0 +1,71 @@
+---
+import type { MarkdownInstance } from "astro";
+import "../../styles/global.css";
+import "../../styles/docs.css";
+import Navbar from "../../components/Navbar.astro";
+
+interface Frontmatter {
+    title: string;
+    author?: string;
+}
+
+type DocType = MarkdownInstance<Frontmatter>;
+const docFiles = import.meta.glob<DocType>("../../data/docs/*.md", {
+    eager: true,
+});
+const docs = Object.values(docFiles);
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Miles | Docs</title>
+    </head>
+    <body>
+        <Navbar />
+
+        <main class="docs-content">
+            <h1
+                class="page-title"
+                style="margin-bottom: 1rem; color: var(--text-main);"
+            >
+                Project Documentation
+            </h1>
+            <p
+                style="color: var(--text-muted); margin-bottom: 3rem; line-height: 1.6;"
+            >
+                Select a project below to view the documentation
+            </p>
+
+            <div class="docs-index-list">
+                {
+                    docs.map((doc: DocType) => {
+                        const slug =
+                            doc.file.split("/").pop()?.replace(".md", "") ||
+                            "unknown";
+
+                        return (
+                            <a
+                                href={`/docs/${slug}`}
+                                class="doc-index-card"
+                            >
+                                <div class="doc-index-label">
+                                    <h2>
+                                        {doc.frontmatter.title ||
+                                            "Untitled Document"}
+                                    </h2>
+                                    <span class="doc-author">by {doc.frontmatter.author || "Unknown Author"}</span>
+                                </div>
+                                <span class="view-text">
+                                    Read Documentation →
+                                </span>
+                            </a>
+                        );
+                    })
+                }
+            </div>
+        </main>
+    </body>
+</html>

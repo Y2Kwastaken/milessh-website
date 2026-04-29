@@ -1,0 +1,88 @@
+[
+    {
+        "title": "VoidCR",
+        "tech": "Java / Kotlin / Patch-Based API",
+        "description": "An opinionated, patch-based server software for Cosmic Reach. Focused on providing a reliable and stable API for long-term plugin compatibility and cross-version support without the use of mixins.",
+        "links": [
+            {
+                "url": "https://github.com/VoidCRDev/VoidCR",
+                "text": "View Source",
+                "external": true
+            }
+        ]
+    },
+    {
+        "title": "PaperMC Core Contributions",
+        "tech": "Java / API Design / Minecraft Internals",
+        "description": "Contributed upstream architectural improvements to the PaperMC server software. Key work includes creating the MenuType API, fixing various bugs, and adding a Point of Interest API.",
+        "links": [
+            {
+                "url": "https://github.com/PaperMC/Paper/pulls?q=is%3Apr+author%3AY2Kwastaken+is%3Amerged",
+                "text": "View Merged PRs",
+                "external": true
+            }
+        ]
+    },
+    {
+        "title": "MenuKit",
+        "tech": "Java / Bukkit API",
+        "description": "A high-performance, object-oriented framework for creating dynamic GUIs in Minecraft. Designed to abstract away the boilerplate of inventory management, allowing for fluent menu creation and event handling with minimal overhead.",
+        "links": [
+            {
+                "url": "https://github.com/Y2Kwastaken/MenuKit",
+                "text": "View Source",
+                "external": true
+            },
+            {
+                "url": "docs/menu_kit",
+                "text": "View Docs"
+            }
+        ]
+    },
+    {
+        "title": "SpigotMC Core Contributions",
+        "tech": "Java / NMS / API Architecture",
+        "description": "Architected and implemented major internal systems for the SpigotMC ecosystem. Contributions include a massive refactor of the InventoryView API, implementation of specialized view systems (Anvil, Beacon, Crafter), and deep-level NMS patching for server performance and entity synchronization.",
+        "links": [
+            {
+                "url": "/projects/spigot",
+                "text": "View Technical Patch Log",
+                "external": false
+            }
+        ]
+    },
+    {
+        "title": "Artisan",
+        "tech": "Java / Bytecode",
+        "description": "A Java bytecode generation solution designed to programmatically manipulate and generate compiled class files at runtime, reducing reflection overhead in dynamic server environments.",
+        "links": [
+            {
+                "url": "https://github.com/VoidCRDev/Artisan",
+                "text": "View Source",
+                "external": true
+            },
+            {
+                "url": "https://github.com/VoidCRDev/Artisan/blob/master/README.md",
+                "text": "Read Documentation",
+                "external": true
+            }
+        ]
+    },
+    {
+        "title": "RPC Marketplace",
+        "tech": "Springboot / React Vite / Hedera Hashgraph",
+        "description": "A Crypto currency powered marketplcae using a modern technology stack to build out a robust production ready application built on the Hedera Hashgraph Java SDK.",
+        "links": [
+            {
+                "url": "https://github.com/Y2Kwastaken/RPCMarket",
+                "text": "View Source",
+                "external": true
+            },
+            {
+                "url": "/projects/rpcmarket",
+                "text": "View Technical Log",
+                "external": false
+            }
+        ]
+    }
+]

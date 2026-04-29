@@ -1,5 +1,10 @@
 ---
+import "../styles/global.css";
+import "../styles/index.css";
+import Navbar from "../components/Navbar.astro";
+import projects from "../data/projects.json";
 
+const featuredProjects = projects.slice(0, 4);
 ---
 
 <html lang="en">
@@ -9,9 +14,42 @@
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Miles | Home</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Navbar />
+
+		<main class="hero-container">
+			<div class="intro-header">
+				<h1 class="hero-title">I'm Miles</h1>
+				<p class="hero-subtitle">
+					Java Software Engineer · Backend Architecture · API Design
+				</p>
+			</div>
+		</main>
+
+		<section class="featured-section">
+			<h2 class="section-title">Featured Projects</h2>
+
+			{
+				featuredProjects.map((project) => (
+					<a
+						href={project.links[0].url}
+						class="project-item"
+						target={
+							project.links[0].external ? "_blank" : undefined
+						}
+						rel={
+							project.links[0].external
+								? "noopener noreferrer"
+								: undefined
+						}
+					>
+						<span class="project-name">{project.title}</span>
+						<span class="project-tech">{project.tech}</span>
+					</a>
+				))
+			}
+		</section>
 	</body>
 </html>

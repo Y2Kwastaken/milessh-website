@@ -1,0 +1,67 @@
+---
+import type { MarkdownInstance, GetStaticPaths } from "astro";
+import "../../styles/global.css";
+import "../../styles/docs.css";
+import Navbar from "../../components/Navbar.astro";
+
+interface Frontmatter {
+    title: string;
+    author?: string;
+}
+
+type DocType = MarkdownInstance<Frontmatter>;
+
+export const getStaticPaths: GetStaticPaths = () => {
+    const globResults = import.meta.glob<DocType>("../../data/docs/*.md", {
+        eager: true,
+    });
+    const docs = Object.values(globResults);
+    return docs.map((doc: DocType) => {
+        const fileName =
+            doc.file.split("/").pop()?.replace(".md", "") || "unknown-doc";
+
+        return {
+            params: { slug: fileName },
+            props: { doc },
+        };
+    });
+};
+
+interface Props {
+    doc: DocType;
+}
+
+const { doc } = Astro.props;
+const { Content } = doc;
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <title> Miles | {doc.frontmatter.title}</title>
+    </head>
+    <body>
+        <Navbar />
+
+        <main class="docs-content">
+            <a href="/docs" class="back-link">← Back to Documentation</a>
+
+            <header class="doc-header">
+                <h1>{doc.frontmatter.title}</h1>
+                {
+                    doc.frontmatter.author && (
+                        <span class="doc-author">
+                            Authored by {doc.frontmatter.author}
+                        </span>
+                    )
+                }
+            </header>
+
+            <article class="markdown-body">
+                <Content />
+            </article>
+        </main>
+    </body>
+</html>
