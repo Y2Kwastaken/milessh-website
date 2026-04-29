@@ -1,12 +1,7 @@
 {
-	"compatibility_date": "2026-04-29",
-	"compatibility_flags": ["global_fetch_strictly_public"],
 	"name": "milessh",
-	"main": "@astrojs/cloudflare/entrypoints/server",
-	"assets": {
-		"directory": "./dist",
-		"binding": "ASSETS"
-	},
+	"compatibility_date": "2026-04-29",
+	"pages_build_output_dir": "dist",
 	"observability": {
 		"enabled": true
 	}
