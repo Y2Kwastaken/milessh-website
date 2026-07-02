@@ -23,7 +23,7 @@ MenuKit is distributed via the Miles Repository. It is split into core functiona
 **Gradle (Kotlin DSL)**
 ```kotlin
 repositories {
-    maven("[https://maven.miles.sh/snapshots](https://maven.miles.sh/snapshots)")
+    maven("https://maven.miles.sh/snapshots")
 }
 
 dependencies {
@@ -36,13 +36,18 @@ dependencies {
 ```xml
 <repository>
     <id>miles-repos-snapshots</id>
-    <url>[https://maven.miles.sh/snapshots](https://maven.miles.sh/snapshots)</url>
+    <url>https://maven.miles.sh/snapshots</url>
 </repository>
 
 <dependency>
     <groupId>sh.miles.menukit</groupId>
     <artifactId>menukit-core</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+</dependency>
+<dependency>
+    <groupId>sh.miles.menukit</groupId>
+    <artifactId>menukit-strings</artifactId>
+    <version>1.3.0-SNAPSHOT</version>
 </dependency>
 ```
 
