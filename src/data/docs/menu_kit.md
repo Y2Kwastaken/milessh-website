@@ -27,8 +27,8 @@ repositories {
 }
 
 dependencies {
-    implementation("sh.miles.menukit:menukit-core:1.0.0-SNAPSHOT")
-    implementation("sh.miles.menukit:menukit-strings:1.3.0-SNAPSHOT") // Optional: For MenuRecipe layouts
+    implementation("sh.miles.menukit:menukit-core:2.1.0-SNAPSHOT")
+    implementation("sh.miles.menukit:menukit-strings:2.0.0-SNAPSHOT") // Optional: For MenuRecipe layouts
 }
 ```
 
@@ -42,12 +42,12 @@ dependencies {
 <dependency>
     <groupId>sh.miles.menukit</groupId>
     <artifactId>menukit-core</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>2.1.0-SNAPSHOT</version>
 </dependency>
 <dependency>
     <groupId>sh.miles.menukit</groupId>
     <artifactId>menukit-strings</artifactId>
-    <version>1.3.0-SNAPSHOT</version>
+    <version>2.0.0-SNAPSHOT</version>
 </dependency>
 ```
 
