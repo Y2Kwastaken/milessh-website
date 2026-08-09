@@ -84,5 +84,17 @@
                 "external": false
             }
         ]
+    },
+    {
+        "title": "Marginalia",
+        "tech": "Claude Code / VSCode / Agentic Coding",
+        "description": "A Claude and agentic coding \"skill\" to aid in papermc plugin and pull request development.",
+        "links": [
+            {
+                "url": "https://github.com/Y2Kwastaken/Marginalia",
+                "text": "View Source",
+                "external": true
+            }
+        ]
     }
 ]
