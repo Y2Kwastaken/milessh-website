@@ -1,0 +1,70 @@
+---
+import type { MarkdownInstance, GetStaticPaths } from "astro";
+import "../../styles/global.css";
+import "../../styles/docs.css";
+import Navbar from "../../components/Navbar.astro";
+
+interface Frontmatter {
+    title: string;
+    tech?: string[];
+    lead?: string;
+}
+
+type ProjectDoc = MarkdownInstance<Frontmatter>;
+
+export const getStaticPaths: GetStaticPaths = () => {
+    const globResults = import.meta.glob<ProjectDoc>(
+        "../../data/projects/*.md",
+        { eager: true },
+    );
+    return Object.values(globResults).map((doc) => {
+        const slug =
+            doc.file.split("/").pop()?.replace(".md", "") || "unknown-project";
+        return {
+            params: { slug },
+            props: { doc },
+        };
+    });
+};
+
+interface Props {
+    doc: ProjectDoc;
+}
+
+const { doc } = Astro.props;
+const { Content, frontmatter } = doc;
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Miles | {frontmatter.title}</title>
+    </head>
+    <body>
+        <Navbar />
+
+        <main class="docs-content project-content">
+            <a href="/projects" class="back-link">← Back to Projects</a>
+
+            <header class="doc-header">
+                <h1>{frontmatter.title}</h1>
+                {
+                    frontmatter.tech && (
+                        <div class="tech-pills">
+                            {frontmatter.tech.map((t) => (
+                                <span class="pill">{t}</span>
+                            ))}
+                        </div>
+                    )
+                }
+                {frontmatter.lead && <p class="lead-text">{frontmatter.lead}</p>}
+            </header>
+
+            <article class="markdown-body">
+                <Content />
+            </article>
+        </main>
+    </body>
+</html>

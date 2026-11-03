@@ -1,5 +1,22 @@
 [
     {
+        "title": "Model Citizen",
+        "tech": "Go / Disgo / OpenAI Api / AI Assisted Programming",
+        "description": "An AI powered discord bot to bring fun and utility to your discord server. With a built in music player and customizable personality!",
+        "links": [
+            {
+                "url": "https://github.com/Y2Kwastaken/model-citizen",
+                "text": "View Source",
+                "external": true
+            },
+            {
+                "url": "/projects/modelcitizen",
+                "text": "Project Reflection",
+                "external": false
+            }
+        ]
+    },
+    {
         "title": "VoidCR",
         "tech": "Java / Kotlin / Patch-Based API",
         "description": "An opinionated, patch-based server software for Cosmic Reach. Focused on providing a reliable and stable API for long-term plugin compatibility and cross-version support without the use of mixins.",

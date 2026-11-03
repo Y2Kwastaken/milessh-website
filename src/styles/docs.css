@@ -122,3 +122,59 @@
     padding: 0;
     color: inherit;
 }
+.markdown-body h3 {
+    color: var(--text-main);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.markdown-body li {
+    margin-bottom: 0.5rem;
+}
+
+.markdown-body strong {
+    color: var(--text-main);
+}
+
+.markdown-body a {
+    color: var(--primary-color);
+}
+
+/* Project write-ups (src/pages/projects/[slug].astro) */
+.project-content {
+    max-width: 900px;
+}
+
+.project-content .markdown-body {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.tech-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+}
+
+.pill {
+    background: var(--surface-color);
+    color: var(--primary-color);
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: monospace;
+    border: 1px solid var(--border-color);
+}
+
+.lead-text {
+    font-size: 1.25rem;
+    color: var(--text-main);
+    line-height: 1.6;
+}
