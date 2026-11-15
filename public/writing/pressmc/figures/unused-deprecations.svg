@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1104" height="1054" viewBox="0 0 1104 1054" role="img" aria-label="The 93 deprecated APIs no sampled plugin references" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>The 93 deprecated APIs no sampled plugin references</title>
+<style>
+  .surface { fill: #fcfcfb; }
+  .title { fill: #0b0b0b; font-size: 15px; font-weight: 600; }
+  .subtitle, .legend, .label { fill: #52514e; font-size: 12px; }
+  .tick { fill: #898781; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .value { fill: #0b0b0b; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ink-on-fill-light { fill: #ffffff; font-size: 11px; }
+  .ink-on-fill-dark { fill: #0b0b0b; font-size: 11px; }
+  
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .title { fill: #f0efec; }
+    .subtitle, .legend, .label { fill: #c3c2b7; }
+    .value { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    
+  }
+</style>
+<rect class="surface" width="1104" height="1054" rx="8"/>
+<style>.section { fill: #0b0b0b; font-size: 13px; font-weight: 600; } .count { fill: #898781; font-size: 12px; }.entry { fill: #0b0b0b; font-size: 12px; } .date { fill: #898781; font-size: 11px; }.rule { stroke: #e1e0d9; stroke-width: 1; }@media (prefers-color-scheme: dark) { .section, .entry { fill: #f0efec; } .rule { stroke: #2c2c2a; } }</style>
+<text x="24.0" y="30.0" class="title" text-anchor="start" dominant-baseline="middle">The 93 deprecated APIs no sampled plugin references</text>
+<text x="24.0" y="50.0" class="subtitle" text-anchor="start" dominant-baseline="middle">Of the 136 oldest deprecated entries, none of the 958 plugins in the sample reference these. 14 inlined constants are left out,</text>
+<text x="24.0" y="68.0" class="subtitle" text-anchor="start" dominant-baseline="middle">since static analysis can&#x27;t see their use.</text>
+<line x1="24" y1="94" x2="1080" y2="94" class="rule"/>
+<text x="24.0" y="108.0" class="section" text-anchor="start" dominant-baseline="middle">org.bukkit.material</text>
+<text x="154.8" y="108.0" class="count" text-anchor="start" dominant-baseline="middle">60 entries</text>
+<text x="24.0" y="128.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.material.Door#getHingeCorner(), deprecated 2012-12-15</title>Door#getHingeCorner()</text>
+<text x="164.4" y="128.0" class="date" text-anchor="start" dominant-baseline="middle">2012-12-15</text>
+<text x="24.0" y="146.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.material.ExtendedRails#getConvertedData(), deprecated 2013-08-19</title>ExtendedRails#getConvertedData()</text>
+<text x="24.0" y="164.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Bed#Bed(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Bed(Material, byte)</text>
+<text x="24.0" y="182.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Button#Button(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Button(Material, byte)</text>
+<text x="24.0" y="200.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Cake#Cake(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Cake(Material, byte)</text>
+<text x="24.0" y="218.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Cauldron#Cauldron(byte), deprecated 2013-08-19</title>new Cauldron(byte)</text>
+<text x="24.0" y="236.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Cauldron#Cauldron(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Cauldron(Material, byte)</text>
+<text x="24.0" y="254.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Chest#Chest(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Chest(Material, byte)</text>
+<text x="24.0" y="272.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Coal#Coal(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Coal(Material, byte)</text>
+<text x="24.0" y="290.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.CocoaPlant#CocoaPlant(org.bukkit.Material, byte), deprecated 2013-08-19</title>new CocoaPlant(Material, byte)</text>
+<text x="24.0" y="308.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Command#Command(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Command(Material, byte)</text>
+<text x="24.0" y="326.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Crops#Crops(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Crops(Material, byte)</text>
+<text x="24.0" y="344.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.DetectorRail#DetectorRail(org.bukkit.Material, byte), deprecated 2013-08-19</title>new DetectorRail(Material, byte)</text>
+<text x="24.0" y="362.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Diode#Diode(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Diode(Material, byte)</text>
+<text x="24.0" y="380.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.DirectionalContainer#DirectionalContainer(org.bukkit.Material, byte), deprecated 2013-08-19</title>new DirectionalContainer(Material, byte)</text>
+<text x="24.0" y="398.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Dispenser#Dispenser(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Dispenser(Material, byte)</text>
+<text x="24.0" y="416.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Door#Door(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Door(Material, byte)</text>
+<text x="24.0" y="434.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Dye#Dye(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Dye(Material, byte)</text>
+<text x="24.0" y="452.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.EnderChest#EnderChest(org.bukkit.Material, byte), deprecated 2013-08-19</title>new EnderChest(Material, byte)</text>
+<text x="24.0" y="470.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.ExtendedRails#ExtendedRails(org.bukkit.Material, byte), deprecated 2013-08-19</title>new ExtendedRails(Material, byte)</text>
+<text x="376.0" y="128.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.FlowerPot#FlowerPot(org.bukkit.Material, byte), deprecated 2013-08-19</title>new FlowerPot(Material, byte)</text>
+<text x="376.0" y="146.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Furnace#Furnace(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Furnace(Material, byte)</text>
+<text x="376.0" y="164.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.FurnaceAndDispenser#FurnaceAndDispenser(org.bukkit.Material, byte), deprecated 2013-08-19</title>new FurnaceAndDispenser(Material, byte)</text>
+<text x="376.0" y="182.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Ladder#Ladder(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Ladder(Material, byte)</text>
+<text x="376.0" y="200.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Leaves#Leaves(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Leaves(Material, byte)</text>
+<text x="376.0" y="218.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.LongGrass#LongGrass(org.bukkit.Material, byte), deprecated 2013-08-19</title>new LongGrass(Material, byte)</text>
+<text x="376.0" y="236.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.MonsterEggs#MonsterEggs(org.bukkit.Material, byte), deprecated 2013-08-19</title>new MonsterEggs(Material, byte)</text>
+<text x="376.0" y="254.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Mushroom#Mushroom(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Mushroom(Material, byte)</text>
+<text x="376.0" y="272.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.NetherWarts#NetherWarts(org.bukkit.Material, byte), deprecated 2013-08-19</title>new NetherWarts(Material, byte)</text>
+<text x="376.0" y="290.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.PistonBaseMaterial#PistonBaseMaterial(org.bukkit.Material, byte), deprecated 2013-08-19</title>new PistonBaseMaterial(Material, byte)</text>
+<text x="376.0" y="308.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.PistonExtensionMaterial#PistonExtensionMaterial(org.bukkit.Material, byte), deprecated 2013-08-19</title>new PistonExtensionMaterial(Material, byte)</text>
+<text x="376.0" y="326.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.PoweredRail#PoweredRail(org.bukkit.Material, byte), deprecated 2013-08-19</title>new PoweredRail(Material, byte)</text>
+<text x="376.0" y="344.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.PressurePlate#PressurePlate(org.bukkit.Material, byte), deprecated 2013-08-19</title>new PressurePlate(Material, byte)</text>
+<text x="376.0" y="362.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Pumpkin#Pumpkin(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Pumpkin(Material, byte)</text>
+<text x="376.0" y="380.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Rails#Rails(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Rails(Material, byte)</text>
+<text x="376.0" y="398.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.RedstoneTorch#RedstoneTorch(org.bukkit.Material, byte), deprecated 2013-08-19</title>new RedstoneTorch(Material, byte)</text>
+<text x="376.0" y="416.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.RedstoneWire#RedstoneWire(org.bukkit.Material, byte), deprecated 2013-08-19</title>new RedstoneWire(Material, byte)</text>
+<text x="376.0" y="434.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Sandstone#Sandstone(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Sandstone(Material, byte)</text>
+<text x="376.0" y="452.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Sign#Sign(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Sign(Material, byte)</text>
+<text x="376.0" y="470.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.SimpleAttachableMaterialData#SimpleAttachableMaterialData(org.bukkit.Material, byte), deprecated 2013-08-19</title>new SimpleAttachableMaterialData(Material, byte)</text>
+<text x="728.0" y="128.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Skull#Skull(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Skull(Material, byte)</text>
+<text x="728.0" y="146.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.SmoothBrick#SmoothBrick(org.bukkit.Material, byte), deprecated 2013-08-19</title>new SmoothBrick(Material, byte)</text>
+<text x="728.0" y="164.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.SpawnEgg#SpawnEgg(byte), deprecated 2013-08-19</title>new SpawnEgg(byte)</text>
+<text x="728.0" y="182.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.SpawnEgg#SpawnEgg(org.bukkit.Material, byte), deprecated 2013-08-19</title>new SpawnEgg(Material, byte)</text>
+<text x="728.0" y="200.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Stairs#Stairs(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Stairs(Material, byte)</text>
+<text x="728.0" y="218.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Step#Step(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Step(Material, byte)</text>
+<text x="728.0" y="236.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.TexturedMaterial#TexturedMaterial(org.bukkit.Material, byte), deprecated 2013-08-19</title>new TexturedMaterial(Material, byte)</text>
+<text x="728.0" y="254.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Torch#Torch(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Torch(Material, byte)</text>
+<text x="728.0" y="272.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.TrapDoor#TrapDoor(org.bukkit.Material, byte), deprecated 2013-08-19</title>new TrapDoor(Material, byte)</text>
+<text x="728.0" y="290.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Tree#Tree(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Tree(Material, byte)</text>
+<text x="728.0" y="308.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Tripwire#Tripwire(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Tripwire(Material, byte)</text>
+<text x="728.0" y="326.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.TripwireHook#TripwireHook(org.bukkit.Material, byte), deprecated 2013-08-19</title>new TripwireHook(Material, byte)</text>
+<text x="728.0" y="344.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Vine#Vine(byte), deprecated 2013-08-19</title>new Vine(byte)</text>
+<text x="728.0" y="362.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Vine#Vine(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Vine(Material, byte)</text>
+<text x="728.0" y="380.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.WoodenStep#WoodenStep(org.bukkit.Material, byte), deprecated 2013-08-19</title>new WoodenStep(Material, byte)</text>
+<text x="728.0" y="398.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.material.Wool#Wool(org.bukkit.Material, byte), deprecated 2013-08-19</title>new Wool(Material, byte)</text>
+<text x="728.0" y="416.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.material.Rails#getConvertedData(), deprecated 2013-08-19</title>Rails#getConvertedData()</text>
+<text x="728.0" y="434.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.material.Step#setTextureIndex(int), deprecated 2013-08-19</title>Step#setTextureIndex(int)</text>
+<text x="728.0" y="452.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.material.TexturedMaterial#getTextureIndex(), deprecated 2013-08-19</title>TexturedMaterial#getTextureIndex()</text>
+<text x="728.0" y="470.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.material.TexturedMaterial#setTextureIndex(int), deprecated 2013-08-19</title>TexturedMaterial#setTextureIndex(int)</text>
+<line x1="24" y1="496" x2="1080" y2="496" class="rule"/>
+<text x="24.0" y="510.0" class="section" text-anchor="start" dominant-baseline="middle">org.bukkit</text>
+<text x="98.7" y="510.0" class="count" text-anchor="start" dominant-baseline="middle">12 entries</text>
+<text x="24.0" y="530.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.ChunkSnapshot#getData(int, int, int), deprecated 2013-08-19</title>ChunkSnapshot#getData(int, int, int)</text>
+<text x="24.0" y="548.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.CoalType#getByData(byte), deprecated 2013-08-19</title>CoalType#getByData(byte)</text>
+<text x="24.0" y="566.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.CoalType#getData(), deprecated 2013-08-19</title>CoalType#getData()</text>
+<text x="24.0" y="584.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.CropState#getByData(byte), deprecated 2013-08-19</title>CropState#getByData(byte)</text>
+<text x="376.0" y="530.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.CropState#getData(), deprecated 2013-08-19</title>CropState#getData()</text>
+<text x="376.0" y="548.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.GrassSpecies#getByData(byte), deprecated 2013-08-19</title>GrassSpecies#getByData(byte)</text>
+<text x="376.0" y="566.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.GrassSpecies#getData(), deprecated 2013-08-19</title>GrassSpecies#getData()</text>
+<text x="376.0" y="584.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.Instrument#getByType(byte), deprecated 2013-08-19</title>Instrument#getByType(byte)</text>
+<text x="728.0" y="530.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.SandstoneType#getByData(byte), deprecated 2013-08-19</title>SandstoneType#getByData(byte)</text>
+<text x="728.0" y="548.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.SandstoneType#getData(), deprecated 2013-08-19</title>SandstoneType#getData()</text>
+<text x="728.0" y="566.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.TreeSpecies#getByData(byte), deprecated 2013-08-19</title>TreeSpecies#getByData(byte)</text>
+<text x="728.0" y="584.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.World#getEntitiesByClass(java.lang.Class[]), deprecated 2012-01-27</title>World#getEntitiesByClass(Class[])</text>
+<text x="932.9" y="584.0" class="date" text-anchor="start" dominant-baseline="middle">2012-01-27</text>
+<line x1="24" y1="610" x2="1080" y2="610" class="rule"/>
+<text x="24.0" y="624.0" class="section" text-anchor="start" dominant-baseline="middle">org.bukkit.inventory</text>
+<text x="163.5" y="624.0" class="count" text-anchor="start" dominant-baseline="middle">7 entries</text>
+<text x="24.0" y="644.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.inventory.FurnaceRecipe#setInput(org.bukkit.Material, int), deprecated 2013-08-19</title>FurnaceRecipe#setInput(Material, int)</text>
+<text x="24.0" y="662.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.inventory.FurnaceRecipe#FurnaceRecipe(org.bukkit.inventory.ItemStack, org.bukkit.Material, int), deprecated 2013-08-19</title>new FurnaceRecipe(ItemStack, Material, int)</text>
+<text x="24.0" y="680.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.inventory.ShapedRecipe#setIngredient(char, org.bukkit.Material, int), deprecated 2013-08-19</title>ShapedRecipe#setIngredient(char, Material, int)</text>
+<text x="376.0" y="644.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.inventory.ShapelessRecipe#addIngredient(int, org.bukkit.Material, int), deprecated 2013-08-19</title>ShapelessRecipe#addIngredient(int, Material, int)</text>
+<text x="376.0" y="662.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.inventory.ShapelessRecipe#addIngredient(org.bukkit.Material, int), deprecated 2013-08-19</title>ShapelessRecipe#addIngredient(Material, int)</text>
+<text x="376.0" y="680.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.inventory.ShapelessRecipe#removeIngredient(int, org.bukkit.Material, int), deprecated 2013-08-19</title>ShapelessRecipe#removeIngredient(int, Material, int)</text>
+<text x="728.0" y="644.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.inventory.ShapelessRecipe#removeIngredient(org.bukkit.Material, int), deprecated 2013-08-19</title>ShapelessRecipe#removeIngredient(Material, int)</text>
+<line x1="24" y1="706" x2="1080" y2="706" class="rule"/>
+<text x="24.0" y="720.0" class="section" text-anchor="start" dominant-baseline="middle">org.bukkit.event.player</text>
+<text x="181.8" y="720.0" class="count" text-anchor="start" dominant-baseline="middle">6 entries</text>
+<text x="24.0" y="740.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.event.player.AsyncPlayerPreLoginEvent#disallow(org.bukkit.event.player.PlayerPreLoginEvent.Result, java.lang.String), deprecated 2012-10-14</title>AsyncPlayerPreLoginEvent#disallow(PlayerPreLoginEvent.Result, String)</text>
+<text x="458.8" y="740.0" class="date" text-anchor="start" dominant-baseline="middle">2012-10-14</text>
+<text x="24.0" y="758.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.event.player.AsyncPlayerPreLoginEvent#getResult(), deprecated 2012-10-14</title>AsyncPlayerPreLoginEvent#getResult()</text>
+<text x="259.4" y="758.0" class="date" text-anchor="start" dominant-baseline="middle">2012-10-14</text>
+<text x="24.0" y="776.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.event.player.AsyncPlayerPreLoginEvent#setResult(org.bukkit.event.player.PlayerPreLoginEvent.Result), deprecated 2012-10-14</title>AsyncPlayerPreLoginEvent#setResult(PlayerPreLoginEvent.Result)</text>
+<text x="422.6" y="776.0" class="date" text-anchor="start" dominant-baseline="middle">2012-10-14</text>
+<text x="552.0" y="740.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.event.player.AsyncPlayerPreLoginEvent.Result#old(), deprecated 2012-10-14</title>AsyncPlayerPreLoginEvent.Result#old()</text>
+<text x="788.8" y="740.0" class="date" text-anchor="start" dominant-baseline="middle">2012-10-14</text>
+<text x="552.0" y="758.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.event.player.PlayerCommandPreprocessEvent#getRecipients(), deprecated 2012-08-03</title>PlayerCommandPreprocessEvent#getRecipients()</text>
+<text x="840.2" y="758.0" class="date" text-anchor="start" dominant-baseline="middle">2012-08-03</text>
+<text x="552.0" y="776.0" class="entry" dominant-baseline="middle"><title>type org.bukkit.event.player.PlayerPreLoginEvent, deprecated 2012-10-14</title>PlayerPreLoginEvent (whole class)</text>
+<text x="763.5" y="776.0" class="date" text-anchor="start" dominant-baseline="middle">2012-10-14</text>
+<line x1="24" y1="802" x2="1080" y2="802" class="rule"/>
+<text x="24.0" y="816.0" class="section" text-anchor="start" dominant-baseline="middle">org.bukkit.entity</text>
+<text x="142.4" y="816.0" class="count" text-anchor="start" dominant-baseline="middle">4 entries</text>
+<text x="24.0" y="836.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.entity.FallingBlock#getMaterial(), deprecated 2013-08-19</title>FallingBlock#getMaterial()</text>
+<text x="24.0" y="854.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.entity.Ocelot.Type#getId(), deprecated 2013-08-19</title>Ocelot.Type#getId()</text>
+<text x="376.0" y="836.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.entity.Ocelot.Type#getType(int), deprecated 2013-08-19</title>Ocelot.Type#getType(int)</text>
+<text x="376.0" y="854.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.entity.Player#playNote(org.bukkit.Location, byte, byte), deprecated 2013-08-19</title>Player#playNote(Location, byte, byte)</text>
+<line x1="24" y1="880" x2="1080" y2="880" class="rule"/>
+<text x="24.0" y="894.0" class="section" text-anchor="start" dominant-baseline="middle">org.bukkit.map</text>
+<text x="125.1" y="894.0" class="count" text-anchor="start" dominant-baseline="middle">3 entries</text>
+<text x="24.0" y="914.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.map.MapCursor#setRawType(byte), deprecated 2013-08-19</title>MapCursor#setRawType(byte)</text>
+<text x="24.0" y="932.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.map.MapCursorCollection#addCursor(int, int, byte, byte), deprecated 2013-08-19</title>MapCursorCollection#addCursor(int, int, byte, byte)</text>
+<text x="552.0" y="914.0" class="entry" dominant-baseline="middle"><title>method org.bukkit.map.MapCursorCollection#addCursor(int, int, byte, byte, boolean), deprecated 2013-08-19</title>MapCursorCollection#addCursor(int, int, byte, byte, boolean)</text>
+<line x1="24" y1="958" x2="1080" y2="958" class="rule"/>
+<text x="24.0" y="972.0" class="section" text-anchor="start" dominant-baseline="middle">org.bukkit.plugin.java</text>
+<text x="172.1" y="972.0" class="count" text-anchor="start" dominant-baseline="middle">1 entry</text>
+<text x="24.0" y="992.0" class="entry" dominant-baseline="middle"><title>constructor org.bukkit.plugin.java.JavaPluginLoader#JavaPluginLoader(org.bukkit.Server), deprecated 2012-12-18</title>new JavaPluginLoader(Server)</text>
+<text x="208.2" y="992.0" class="date" text-anchor="start" dominant-baseline="middle">2012-12-18</text>
+<text x="24.0" y="1040.0" class="tick" text-anchor="start" dominant-baseline="middle">Undated entries were deprecated on 2013-08-19 in Bukkit&#x27;s &quot;Deprecate magic values&quot; commit; dated entries are older.</text>
+</svg>

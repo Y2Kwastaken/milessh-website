@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-label="Plugins referencing the 136 oldest deprecated APIs" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Plugins referencing the 136 oldest deprecated APIs</title>
+<style>
+  .surface { fill: #fcfcfb; }
+  .title { fill: #0b0b0b; font-size: 15px; font-weight: 600; }
+  .subtitle, .legend, .label { fill: #52514e; font-size: 12px; }
+  .tick { fill: #898781; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .value { fill: #0b0b0b; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ink-on-fill-light { fill: #ffffff; font-size: 11px; }
+  .ink-on-fill-dark { fill: #0b0b0b; font-size: 11px; }
+  .code { fill: #2a78d6; }
+  .library { fill: #eb6834; }
+  .version { fill: #1baf7a; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .title { fill: #f0efec; }
+    .subtitle, .legend, .label { fill: #c3c2b7; }
+    .value { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .code { fill: #3987e5; }
+    .library { fill: #d95926; }
+    .version { fill: #199e70; }
+  }
+</style>
+<rect class="surface" width="760" height="250" rx="8"/>
+<text x="24.0" y="30.0" class="title" text-anchor="start" dominant-baseline="middle">Plugins referencing the 136 oldest deprecated APIs</text>
+<text x="24.0" y="50.0" class="subtitle" text-anchor="start" dominant-baseline="middle">Share of each sample bucket; a plugin counts once, under its most direct kind of reference</text>
+<rect x="24.0" y="71.0" width="10" height="10" rx="2" class="code"/>
+<text x="39.0" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">Plugin&#x27;s own code</text>
+<rect x="165.5" y="71.0" width="10" height="10" rx="2" class="library"/>
+<text x="180.5" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">Only via a bundled library</text>
+<rect x="359.4" y="71.0" width="10" height="10" rx="2" class="version"/>
+<text x="374.4" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">Only via a version-specific module</text>
+<line x1="170.0" y1="96.0" x2="170.0" y2="220.0" class="grid"/>
+<text x="170.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">0%</text>
+<line x1="287.5" y1="96.0" x2="287.5" y2="220.0" class="grid"/>
+<text x="287.5" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">5%</text>
+<line x1="405.0" y1="96.0" x2="405.0" y2="220.0" class="grid"/>
+<text x="405.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">10%</text>
+<line x1="522.5" y1="96.0" x2="522.5" y2="220.0" class="grid"/>
+<text x="522.5" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">15%</text>
+<line x1="640.0" y1="96.0" x2="640.0" y2="220.0" class="grid"/>
+<text x="640.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">20%</text>
+<line x1="170.0" y1="96.0" x2="170.0" y2="220.0" class="axis"/>
+<text x="160.0" y="120.0" class="label" text-anchor="end" dominant-baseline="middle">Popular (n=500)</text>
+<path d="M170.0,110.0 H414.4 V130.0 H170.0 Z" class="code"><title>Popular: 52 of 500 plugins (10.4%) - plugin&#x27;s own code</title></path>
+<path d="M416.4,110.0 H560.1 V130.0 H416.4 Z" class="library"><title>Popular: 31 of 500 plugins (6.2%) - only via a bundled library</title></path>
+<path d="M562.1,110.0 H570.2 Q574.2,110.0 574.2,114.0 V126.0 Q574.2,130.0 570.2,130.0 H562.1 Z" class="version"><title>Popular: 3 of 500 plugins (0.6%) - only via a version-specific module</title></path>
+<text x="580.2" y="120.0" class="value" text-anchor="start" dominant-baseline="middle">17.2%  (86)</text>
+<text x="160.0" y="160.0" class="label" text-anchor="end" dominant-baseline="middle">Legacy (n=200)</text>
+<path d="M170.0,150.0 H264.0 V170.0 H170.0 Z" class="code"><title>Legacy: 8 of 200 plugins (4.0%) - plugin&#x27;s own code</title></path>
+<path d="M266.0,150.0 H358.0 V170.0 H266.0 Z" class="library"><title>Legacy: 8 of 200 plugins (4.0%) - only via a bundled library</title></path>
+<path d="M360.0,150.0 H377.5 Q381.5,150.0 381.5,154.0 V166.0 Q381.5,170.0 377.5,170.0 H360.0 Z" class="version"><title>Legacy: 2 of 200 plugins (1.0%) - only via a version-specific module</title></path>
+<text x="387.5" y="160.0" class="value" text-anchor="start" dominant-baseline="middle">9.0%  (18)</text>
+<text x="160.0" y="200.0" class="label" text-anchor="end" dominant-baseline="middle">Random tail (n=300)</text>
+<path d="M170.0,190.0 H193.5 V210.0 H170.0 Z" class="code"><title>Random tail: 3 of 300 plugins (1.0%) - plugin&#x27;s own code</title></path>
+<path d="M195.5,190.0 H260.0 Q264.0,190.0 264.0,194.0 V206.0 Q264.0,210.0 260.0,210.0 H195.5 Z" class="library"><title>Random tail: 9 of 300 plugins (3.0%) - only via a bundled library</title></path>
+<text x="270.0" y="200.0" class="value" text-anchor="start" dominant-baseline="middle">4.0%  (12)</text>
+</svg>

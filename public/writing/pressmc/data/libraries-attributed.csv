@@ -1,0 +1,13 @@
+library,plugins,plugins_only_this_library,entries,uses,plugins_popular,plugins_legacy,plugins_random-tail
+XSeries,23,16,11,479,16,5,3
+ACF (Aikar's command framework),13,10,1,14,8,5,3
+PacketEvents,10,6,5,41,8,0,2
+InventoryGui,6,4,2,18,5,1,0
+AxAPI,5,5,1,60,5,0,0
+BookUtil,2,0,1,2,2,0,0
+EffectLib,2,0,1,2,1,1,0
+MineAcademy Foundation,1,1,12,29,0,0,1
+PhoenixPlugins common lib,1,0,2,16,1,0,0
+ScreamingSandals SGUI,1,0,1,1,1,0,0
+SignGUI,1,1,2,24,1,0,0
+rtag,1,0,1,1,1,0,0

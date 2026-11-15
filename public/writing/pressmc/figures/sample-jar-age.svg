@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-label="Age of the sampled jars" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Age of the sampled jars</title>
+<style>
+  .surface { fill: #fcfcfb; }
+  .title { fill: #0b0b0b; font-size: 15px; font-weight: 600; }
+  .subtitle, .legend, .label { fill: #52514e; font-size: 12px; }
+  .tick { fill: #898781; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .value { fill: #0b0b0b; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ink-on-fill-light { fill: #ffffff; font-size: 11px; }
+  .ink-on-fill-dark { fill: #0b0b0b; font-size: 11px; }
+  .step0 { fill: #86b6ef; }
+  .step1 { fill: #3987e5; }
+  .step2 { fill: #1c5cab; }
+  .step3 { fill: #0d366b; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .title { fill: #f0efec; }
+    .subtitle, .legend, .label { fill: #c3c2b7; }
+    .value { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .step0 { fill: #184f95; }
+    .step1 { fill: #256abf; }
+    .step2 { fill: #5598e7; }
+    .step3 { fill: #9ec5f4; }
+  }
+</style>
+<rect class="surface" width="760" height="250" rx="8"/>
+<style>@media (prefers-color-scheme: dark) { .flip-ink { fill: #0b0b0b; } .flip-ink-0 { fill: #ffffff; } }</style>
+<text x="24.0" y="30.0" class="title" text-anchor="start" dominant-baseline="middle">Age of the sampled jars</text>
+<text x="24.0" y="50.0" class="subtitle" text-anchor="start" dominant-baseline="middle">Time since each jar was published, at the time of the sample run</text>
+<rect x="24.0" y="71.0" width="10" height="10" rx="2" class="step0"/>
+<text x="39.0" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">&lt; 1 year</text>
+<rect x="112.8" y="71.0" width="10" height="10" rx="2" class="step1"/>
+<text x="127.8" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">1–2 years</text>
+<rect x="208.2" y="71.0" width="10" height="10" rx="2" class="step2"/>
+<text x="223.2" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">2–3 years</text>
+<rect x="303.5" y="71.0" width="10" height="10" rx="2" class="step3"/>
+<text x="318.5" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">3+ years</text>
+<line x1="170.0" y1="96.0" x2="170.0" y2="220.0" class="grid"/>
+<text x="170.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">0%</text>
+<line x1="300.0" y1="96.0" x2="300.0" y2="220.0" class="grid"/>
+<text x="300.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">25%</text>
+<line x1="430.0" y1="96.0" x2="430.0" y2="220.0" class="grid"/>
+<text x="430.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">50%</text>
+<line x1="560.0" y1="96.0" x2="560.0" y2="220.0" class="grid"/>
+<text x="560.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">75%</text>
+<line x1="690.0" y1="96.0" x2="690.0" y2="220.0" class="grid"/>
+<text x="690.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">100%</text>
+<line x1="170.0" y1="96.0" x2="170.0" y2="220.0" class="axis"/>
+<text x="160.0" y="120.0" class="label" text-anchor="end" dominant-baseline="middle">Popular (n=500)</text>
+<path d="M170.0,108.0 H592.2 V132.0 H170.0 Z" class="step0"><title>Popular: 406 of 500 jars (81%) - &lt; 1 year</title></path>
+<text x="175.0" y="120.0" class="ink-on-fill-dark flip-ink-0" text-anchor="start" dominant-baseline="middle">81%</text>
+<path d="M594.2,108.0 H646.3 V132.0 H594.2 Z" class="step1"><title>Popular: 52 of 500 jars (10%) - 1–2 years</title></path>
+<text x="599.2" y="120.0" class="ink-on-fill-light" text-anchor="start" dominant-baseline="middle">10%</text>
+<path d="M648.3,108.0 H668.2 V132.0 H648.3 Z" class="step2"><title>Popular: 21 of 500 jars (4%) - 2–3 years</title></path>
+<path d="M670.2,108.0 H686.0 Q690.0,108.0 690.0,112.0 V128.0 Q690.0,132.0 686.0,132.0 H670.2 Z" class="step3"><title>Popular: 21 of 500 jars (4%) - 3+ years</title></path>
+<text x="160.0" y="160.0" class="label" text-anchor="end" dominant-baseline="middle">Legacy (n=200)</text>
+<path d="M170.0,148.0 H474.2 V172.0 H170.0 Z" class="step2"><title>Legacy: 117 of 200 jars (58%) - 2–3 years</title></path>
+<text x="175.0" y="160.0" class="ink-on-fill-light flip-ink" text-anchor="start" dominant-baseline="middle">58%</text>
+<path d="M476.2,148.0 H686.0 Q690.0,148.0 690.0,152.0 V168.0 Q690.0,172.0 686.0,172.0 H476.2 Z" class="step3"><title>Legacy: 83 of 200 jars (42%) - 3+ years</title></path>
+<text x="481.2" y="160.0" class="ink-on-fill-light flip-ink" text-anchor="start" dominant-baseline="middle">42%</text>
+<text x="160.0" y="200.0" class="label" text-anchor="end" dominant-baseline="middle">Random tail (n=300)</text>
+<path d="M170.0,188.0 H523.6 V212.0 H170.0 Z" class="step0"><title>Random tail: 204 of 300 jars (68%) - &lt; 1 year</title></path>
+<text x="175.0" y="200.0" class="ink-on-fill-dark flip-ink-0" text-anchor="start" dominant-baseline="middle">68%</text>
+<path d="M525.6,188.0 H636.3 V212.0 H525.6 Z" class="step1"><title>Random tail: 65 of 300 jars (22%) - 1–2 years</title></path>
+<text x="530.6" y="200.0" class="ink-on-fill-light" text-anchor="start" dominant-baseline="middle">22%</text>
+<path d="M638.3,188.0 H672.7 V212.0 H638.3 Z" class="step2"><title>Random tail: 21 of 300 jars (7%) - 2–3 years</title></path>
+<text x="643.3" y="200.0" class="ink-on-fill-light flip-ink" text-anchor="start" dominant-baseline="middle">7%</text>
+<path d="M674.7,188.0 H686.0 Q690.0,188.0 690.0,192.0 V208.0 Q690.0,212.0 686.0,212.0 H674.7 Z" class="step3"><title>Random tail: 10 of 300 jars (3%) - 3+ years</title></path>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="802" height="548" viewBox="0 0 802 548" role="img" aria-label="Bundled libraries whose code references the deprecated entries" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Bundled libraries whose code references the deprecated entries</title>
+<style>
+  .surface { fill: #fcfcfb; }
+  .title { fill: #0b0b0b; font-size: 15px; font-weight: 600; }
+  .subtitle, .legend, .label { fill: #52514e; font-size: 12px; }
+  .tick { fill: #898781; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .value { fill: #0b0b0b; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ink-on-fill-light { fill: #ffffff; font-size: 11px; }
+  .ink-on-fill-dark { fill: #0b0b0b; font-size: 11px; }
+  .only { fill: #eb6834; }
+  .other { fill: #c3c2b7; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .title { fill: #f0efec; }
+    .subtitle, .legend, .label { fill: #c3c2b7; }
+    .value { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .only { fill: #d95926; }
+    .other { fill: #52514e; }
+  }
+</style>
+<rect class="surface" width="802" height="548" rx="8"/>
+<text x="24.0" y="30.0" class="title" text-anchor="start" dominant-baseline="middle">Bundled libraries whose code references the deprecated entries</text>
+<text x="24.0" y="50.0" class="subtitle" text-anchor="start" dominant-baseline="middle">Bar length: plugins bundling a copy of the library that references at least one entry</text>
+<rect x="24" y="71" width="10" height="10" rx="2" class="only"/>
+<text x="39.0" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">This library is the plugin&#x27;s only source of deprecated references</text>
+<rect x="24" y="89" width="10" height="10" rx="2" class="other"/>
+<text x="39.0" y="94.0" class="legend" text-anchor="start" dominant-baseline="middle">The plugin also has deprecated references outside this library (its own code or another library)</text>
+<line x1="232.5" y1="118.0" x2="232.5" y2="458.0" class="grid"/>
+<text x="232.5" y="472.0" class="tick" text-anchor="middle" dominant-baseline="middle">0</text>
+<line x1="316.5" y1="118.0" x2="316.5" y2="458.0" class="grid"/>
+<text x="316.5" y="472.0" class="tick" text-anchor="middle" dominant-baseline="middle">5</text>
+<line x1="400.5" y1="118.0" x2="400.5" y2="458.0" class="grid"/>
+<text x="400.5" y="472.0" class="tick" text-anchor="middle" dominant-baseline="middle">10</text>
+<line x1="484.5" y1="118.0" x2="484.5" y2="458.0" class="grid"/>
+<text x="484.5" y="472.0" class="tick" text-anchor="middle" dominant-baseline="middle">15</text>
+<line x1="568.5" y1="118.0" x2="568.5" y2="458.0" class="grid"/>
+<text x="568.5" y="472.0" class="tick" text-anchor="middle" dominant-baseline="middle">20</text>
+<line x1="652.5" y1="118.0" x2="652.5" y2="458.0" class="grid"/>
+<text x="652.5" y="472.0" class="tick" text-anchor="middle" dominant-baseline="middle">25</text>
+<line x1="232.5" y1="118.0" x2="232.5" y2="458.0" class="axis"/>
+<text x="222.5" y="136.0" class="label" text-anchor="end" dominant-baseline="middle">XSeries</text>
+<path d="M232.5,129.0 H501.3 V143.0 H232.5 Z" class="only"><title>XSeries: for 16 of 23 plugins, this library is their only source of deprecated references</title></path>
+<path d="M503.3,129.0 H614.9 Q618.9,129.0 618.9,133.0 V139.0 Q618.9,143.0 614.9,143.0 H503.3 Z" class="other"><title>XSeries: 7 of 23 plugins also have deprecated references outside this library (their own code or another library)</title></path>
+<text x="624.9" y="136.0" class="value" text-anchor="start" dominant-baseline="middle">23 plugins · 11 entries</text>
+<text x="222.5" y="164.0" class="label" text-anchor="end" dominant-baseline="middle">ACF (Aikar&#x27;s command framework)</text>
+<path d="M232.5,157.0 H400.5 V171.0 H232.5 Z" class="only"><title>ACF (Aikar&#x27;s command framework): for 10 of 13 plugins, this library is their only source of deprecated references</title></path>
+<path d="M402.5,157.0 H446.9 Q450.9,157.0 450.9,161.0 V167.0 Q450.9,171.0 446.9,171.0 H402.5 Z" class="other"><title>ACF (Aikar&#x27;s command framework): 3 of 13 plugins also have deprecated references outside this library (their own code or another library)</title></path>
+<text x="456.9" y="164.0" class="value" text-anchor="start" dominant-baseline="middle">13 plugins · 1 entry</text>
+<text x="222.5" y="192.0" class="label" text-anchor="end" dominant-baseline="middle">PacketEvents</text>
+<path d="M232.5,185.0 H333.3 V199.0 H232.5 Z" class="only"><title>PacketEvents: for 6 of 10 plugins, this library is their only source of deprecated references</title></path>
+<path d="M335.3,185.0 H396.5 Q400.5,185.0 400.5,189.0 V195.0 Q400.5,199.0 396.5,199.0 H335.3 Z" class="other"><title>PacketEvents: 4 of 10 plugins also have deprecated references outside this library (their own code or another library)</title></path>
+<text x="406.5" y="192.0" class="value" text-anchor="start" dominant-baseline="middle">10 plugins · 5 entries</text>
+<text x="222.5" y="220.0" class="label" text-anchor="end" dominant-baseline="middle">InventoryGui</text>
+<path d="M232.5,213.0 H299.7 V227.0 H232.5 Z" class="only"><title>InventoryGui: for 4 of 6 plugins, this library is their only source of deprecated references</title></path>
+<path d="M301.7,213.0 H329.3 Q333.3,213.0 333.3,217.0 V223.0 Q333.3,227.0 329.3,227.0 H301.7 Z" class="other"><title>InventoryGui: 2 of 6 plugins also have deprecated references outside this library (their own code or another library)</title></path>
+<text x="339.3" y="220.0" class="value" text-anchor="start" dominant-baseline="middle">6 plugins · 2 entries</text>
+<text x="222.5" y="248.0" class="label" text-anchor="end" dominant-baseline="middle">AxAPI</text>
+<path d="M232.5,241.0 H312.5 Q316.5,241.0 316.5,245.0 V251.0 Q316.5,255.0 312.5,255.0 H232.5 Z" class="only"><title>AxAPI: for 5 of 5 plugins, this library is their only source of deprecated references</title></path>
+<text x="322.5" y="248.0" class="value" text-anchor="start" dominant-baseline="middle">5 plugins · 1 entry</text>
+<text x="222.5" y="276.0" class="label" text-anchor="end" dominant-baseline="middle">BookUtil</text>
+<path d="M232.5,269.0 H262.1 Q266.1,269.0 266.1,273.0 V279.0 Q266.1,283.0 262.1,283.0 H232.5 Z" class="other"><title>BookUtil: 2 of 2 plugins also have deprecated references outside this library (their own code or another library)</title></path>
+<text x="272.1" y="276.0" class="value" text-anchor="start" dominant-baseline="middle">2 plugins · 1 entry</text>
+<text x="222.5" y="304.0" class="label" text-anchor="end" dominant-baseline="middle">EffectLib</text>
+<path d="M232.5,297.0 H262.1 Q266.1,297.0 266.1,301.0 V307.0 Q266.1,311.0 262.1,311.0 H232.5 Z" class="other"><title>EffectLib: 2 of 2 plugins also have deprecated references outside this library (their own code or another library)</title></path>
+<text x="272.1" y="304.0" class="value" text-anchor="start" dominant-baseline="middle">2 plugins · 1 entry</text>
+<text x="222.5" y="332.0" class="label" text-anchor="end" dominant-baseline="middle">MineAcademy Foundation</text>
+<path d="M232.5,325.0 H245.3 Q249.3,325.0 249.3,329.0 V335.0 Q249.3,339.0 245.3,339.0 H232.5 Z" class="only"><title>MineAcademy Foundation: for 1 of 1 plugins, this library is their only source of deprecated references</title></path>
+<text x="255.3" y="332.0" class="value" text-anchor="start" dominant-baseline="middle">1 plugin · 12 entries</text>
+<text x="222.5" y="360.0" class="label" text-anchor="end" dominant-baseline="middle">SignGUI</text>
+<path d="M232.5,353.0 H245.3 Q249.3,353.0 249.3,357.0 V363.0 Q249.3,367.0 245.3,367.0 H232.5 Z" class="only"><title>SignGUI: for 1 of 1 plugins, this library is their only source of deprecated references</title></path>
+<text x="255.3" y="360.0" class="value" text-anchor="start" dominant-baseline="middle">1 plugin · 2 entries</text>
+<text x="222.5" y="388.0" class="label" text-anchor="end" dominant-baseline="middle">PhoenixPlugins common lib</text>
+<path d="M232.5,381.0 H245.3 Q249.3,381.0 249.3,385.0 V391.0 Q249.3,395.0 245.3,395.0 H232.5 Z" class="other"><title>PhoenixPlugins common lib: 1 of 1 plugins also have deprecated references outside this library (their own code or another library)</title></path>
+<text x="255.3" y="388.0" class="value" text-anchor="start" dominant-baseline="middle">1 plugin · 2 entries</text>
+<text x="222.5" y="416.0" class="label" text-anchor="end" dominant-baseline="middle">ScreamingSandals SGUI</text>
+<path d="M232.5,409.0 H245.3 Q249.3,409.0 249.3,413.0 V419.0 Q249.3,423.0 245.3,423.0 H232.5 Z" class="other"><title>ScreamingSandals SGUI: 1 of 1 plugins also have deprecated references outside this library (their own code or another library)</title></path>
+<text x="255.3" y="416.0" class="value" text-anchor="start" dominant-baseline="middle">1 plugin · 1 entry</text>
+<text x="222.5" y="444.0" class="label" text-anchor="end" dominant-baseline="middle">rtag</text>
+<path d="M232.5,437.0 H245.3 Q249.3,437.0 249.3,441.0 V447.0 Q249.3,451.0 245.3,451.0 H232.5 Z" class="other"><title>rtag: 1 of 1 plugins also have deprecated references outside this library (their own code or another library)</title></path>
+<text x="255.3" y="444.0" class="value" text-anchor="start" dominant-baseline="middle">1 plugin · 1 entry</text>
+<text x="24.0" y="498.0" class="tick" text-anchor="start" dominant-baseline="middle">Libraries are relocated under each plugin&#x27;s package and matched back to their library by name.</text>
+<text x="24.0" y="514.0" class="tick" text-anchor="start" dominant-baseline="middle">Entries: how many of the 136 deprecated entries the library&#x27;s code references.</text>
+<text x="24.0" y="530.0" class="tick" text-anchor="start" dominant-baseline="middle">For comparison, 60 plugins reference the entries from their own code.</text>
+</svg>

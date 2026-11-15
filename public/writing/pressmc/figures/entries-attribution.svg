@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="836" viewBox="0 0 1012 836" role="img" aria-label="The 29 deprecated entries referenced by any of 958 plugins" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>The 29 deprecated entries referenced by any of 958 plugins</title>
+<style>
+  .surface { fill: #fcfcfb; }
+  .title { fill: #0b0b0b; font-size: 15px; font-weight: 600; }
+  .subtitle, .legend, .label { fill: #52514e; font-size: 12px; }
+  .tick { fill: #898781; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .value { fill: #0b0b0b; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ink-on-fill-light { fill: #ffffff; font-size: 11px; }
+  .ink-on-fill-dark { fill: #0b0b0b; font-size: 11px; }
+  .code { fill: #2a78d6; }
+  .library { fill: #eb6834; }
+  .version { fill: #1baf7a; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .title { fill: #f0efec; }
+    .subtitle, .legend, .label { fill: #c3c2b7; }
+    .value { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .code { fill: #3987e5; }
+    .library { fill: #d95926; }
+    .version { fill: #199e70; }
+  }
+</style>
+<rect class="surface" width="1012" height="836" rx="8"/>
+<text x="24.0" y="30.0" class="title" text-anchor="start" dominant-baseline="middle">The 29 deprecated entries referenced by any of 958 plugins</text>
+<text x="24.0" y="50.0" class="subtitle" text-anchor="start" dominant-baseline="middle">Plugins per entry, split by who makes the reference; the other 107 entries are referenced by none</text>
+<rect x="24.0" y="71.0" width="10" height="10" rx="2" class="code"/>
+<text x="39.0" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">Plugin&#x27;s own code</text>
+<rect x="165.5" y="71.0" width="10" height="10" rx="2" class="library"/>
+<text x="180.5" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">Only via a bundled library</text>
+<rect x="359.4" y="71.0" width="10" height="10" rx="2" class="version"/>
+<text x="374.4" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">Only via a version-specific module</text>
+<line x1="473.0" y1="96.0" x2="473.0" y2="796.0" class="grid"/>
+<text x="473.0" y="810.0" class="tick" text-anchor="middle" dominant-baseline="middle">0</text>
+<line x1="551.3" y1="96.0" x2="551.3" y2="796.0" class="grid"/>
+<text x="551.3" y="810.0" class="tick" text-anchor="middle" dominant-baseline="middle">10</text>
+<line x1="629.6" y1="96.0" x2="629.6" y2="796.0" class="grid"/>
+<text x="629.6" y="810.0" class="tick" text-anchor="middle" dominant-baseline="middle">20</text>
+<line x1="708.0" y1="96.0" x2="708.0" y2="796.0" class="grid"/>
+<text x="708.0" y="810.0" class="tick" text-anchor="middle" dominant-baseline="middle">30</text>
+<line x1="786.3" y1="96.0" x2="786.3" y2="796.0" class="grid"/>
+<text x="786.3" y="810.0" class="tick" text-anchor="middle" dominant-baseline="middle">40</text>
+<line x1="864.6" y1="96.0" x2="864.6" y2="796.0" class="grid"/>
+<text x="864.6" y="810.0" class="tick" text-anchor="middle" dominant-baseline="middle">50</text>
+<line x1="943.0" y1="96.0" x2="943.0" y2="796.0" class="grid"/>
+<text x="943.0" y="810.0" class="tick" text-anchor="middle" dominant-baseline="middle">60</text>
+<line x1="473.0" y1="96.0" x2="473.0" y2="796.0" class="axis"/>
+<text x="463.0" y="112.0" class="label" text-anchor="end" dominant-baseline="middle">Block#getData()</text>
+<path d="M473.0,106.0 H574.8 V118.0 H473.0 Z" class="code"><title>Block#getData(): 13 plugins - plugin&#x27;s own code</title></path>
+<path d="M576.8,106.0 H723.6 V118.0 H576.8 Z" class="library"><title>Block#getData(): 19 plugins - only via a bundled library</title></path>
+<path d="M725.6,106.0 H727.5 Q731.5,106.0 731.5,110.0 V114.0 Q731.5,118.0 727.5,118.0 H725.6 Z" class="version"><title>Block#getData(): 1 plugins - only via a version-specific module</title></path>
+<text x="737.5" y="112.0" class="value" text-anchor="start" dominant-baseline="middle">33</text>
+<text x="463.0" y="136.0" class="label" text-anchor="end" dominant-baseline="middle">InventoryClickEvent#setCursor(ItemStack)</text>
+<path d="M473.0,130.0 H574.8 V142.0 H473.0 Z" class="code"><title>InventoryClickEvent#setCursor(ItemStack): 13 plugins - plugin&#x27;s own code</title></path>
+<path d="M576.8,130.0 H610.0 Q614.0,130.0 614.0,134.0 V138.0 Q614.0,142.0 610.0,142.0 H576.8 Z" class="library"><title>InventoryClickEvent#setCursor(ItemStack): 5 plugins - only via a bundled library</title></path>
+<text x="620.0" y="136.0" class="value" text-anchor="start" dominant-baseline="middle">18</text>
+<text x="463.0" y="160.0" class="label" text-anchor="end" dominant-baseline="middle">EntityType#getName()</text>
+<path d="M473.0,154.0 H551.3 V166.0 H473.0 Z" class="code"><title>EntityType#getName(): 10 plugins - plugin&#x27;s own code</title></path>
+<path d="M553.3,154.0 H888.1 V166.0 H553.3 Z" class="library"><title>EntityType#getName(): 43 plugins - only via a bundled library</title></path>
+<path d="M890.1,154.0 H907.6 Q911.6,154.0 911.6,158.0 V162.0 Q911.6,166.0 907.6,166.0 H890.1 Z" class="version"><title>EntityType#getName(): 3 plugins - only via a version-specific module</title></path>
+<text x="917.6" y="160.0" class="value" text-anchor="start" dominant-baseline="middle">56</text>
+<text x="463.0" y="184.0" class="label" text-anchor="end" dominant-baseline="middle">MaterialData#getData()</text>
+<path d="M473.0,178.0 H543.5 V190.0 H473.0 Z" class="code"><title>MaterialData#getData(): 9 plugins - plugin&#x27;s own code</title></path>
+<path d="M545.5,178.0 H762.8 V190.0 H545.5 Z" class="library"><title>MaterialData#getData(): 28 plugins - only via a bundled library</title></path>
+<path d="M764.8,178.0 H766.6 Q770.6,178.0 770.6,182.0 V186.0 Q770.6,190.0 766.6,190.0 H764.8 Z" class="version"><title>MaterialData#getData(): 1 plugins - only via a version-specific module</title></path>
+<text x="776.6" y="184.0" class="value" text-anchor="start" dominant-baseline="middle">38</text>
+<text x="463.0" y="208.0" class="label" text-anchor="end" dominant-baseline="middle">new MaterialData(Material, byte)</text>
+<path d="M473.0,202.0 H512.1 V214.0 H473.0 Z" class="code"><title>new MaterialData(Material, byte): 5 plugins - plugin&#x27;s own code</title></path>
+<path d="M514.1,202.0 H688.3 Q692.3,202.0 692.3,206.0 V210.0 Q692.3,214.0 688.3,214.0 H514.1 Z" class="library"><title>new MaterialData(Material, byte): 23 plugins - only via a bundled library</title></path>
+<text x="698.3" y="208.0" class="value" text-anchor="start" dominant-baseline="middle">28</text>
+<text x="463.0" y="232.0" class="label" text-anchor="end" dominant-baseline="middle">EntityType#getTypeId()</text>
+<path d="M473.0,226.0 H512.1 V238.0 H473.0 Z" class="code"><title>EntityType#getTypeId(): 5 plugins - plugin&#x27;s own code</title></path>
+<path d="M514.1,226.0 H567.0 V238.0 H514.1 Z" class="library"><title>EntityType#getTypeId(): 7 plugins - only via a bundled library</title></path>
+<path d="M569.0,226.0 H578.6 Q582.6,226.0 582.6,230.0 V234.0 Q582.6,238.0 578.6,238.0 H569.0 Z" class="version"><title>EntityType#getTypeId(): 2 plugins - only via a version-specific module</title></path>
+<text x="588.6" y="232.0" class="value" text-anchor="start" dominant-baseline="middle">14</text>
+<text x="463.0" y="256.0" class="label" text-anchor="end" dominant-baseline="middle">PotionEffectType#getId()</text>
+<path d="M473.0,250.0 H504.3 V262.0 H473.0 Z" class="code"><title>PotionEffectType#getId(): 4 plugins - plugin&#x27;s own code</title></path>
+<path d="M506.3,250.0 H715.8 V262.0 H506.3 Z" class="library"><title>PotionEffectType#getId(): 27 plugins - only via a bundled library</title></path>
+<path d="M717.8,250.0 H727.5 Q731.5,250.0 731.5,254.0 V258.0 Q731.5,262.0 727.5,262.0 H717.8 Z" class="version"><title>PotionEffectType#getId(): 2 plugins - only via a version-specific module</title></path>
+<text x="737.5" y="256.0" class="value" text-anchor="start" dominant-baseline="middle">33</text>
+<text x="463.0" y="280.0" class="label" text-anchor="end" dominant-baseline="middle">Player#sendBlockChange(Location, Material, byte)</text>
+<path d="M473.0,274.0 H504.3 V286.0 H473.0 Z" class="code"><title>Player#sendBlockChange(Location, Material, byte): 4 plugins - plugin&#x27;s own code</title></path>
+<path d="M506.3,274.0 H520.0 V286.0 H506.3 Z" class="library"><title>Player#sendBlockChange(Location, Material, byte): 2 plugins - only via a bundled library</title></path>
+<path d="M522.0,274.0 H531.6 Q535.6,274.0 535.6,278.0 V282.0 Q535.6,286.0 531.6,286.0 H522.0 Z" class="version"><title>Player#sendBlockChange(Location, Material, byte): 2 plugins - only via a version-specific module</title></path>
+<text x="541.6" y="280.0" class="value" text-anchor="start" dominant-baseline="middle">8</text>
+<text x="463.0" y="304.0" class="label" text-anchor="end" dominant-baseline="middle">PlayerChatEvent (type)</text>
+<path d="M473.0,298.0 H500.3 Q504.3,298.0 504.3,302.0 V306.0 Q504.3,310.0 500.3,310.0 H473.0 Z" class="code"><title>PlayerChatEvent (type): 4 plugins - plugin&#x27;s own code</title></path>
+<text x="510.3" y="304.0" class="value" text-anchor="start" dominant-baseline="middle">4</text>
+<text x="463.0" y="328.0" class="label" text-anchor="end" dominant-baseline="middle">Player#playEffect(Location, Effect, int)</text>
+<path d="M473.0,322.0 H500.3 Q504.3,322.0 504.3,326.0 V330.0 Q504.3,334.0 500.3,334.0 H473.0 Z" class="code"><title>Player#playEffect(Location, Effect, int): 4 plugins - plugin&#x27;s own code</title></path>
+<text x="510.3" y="328.0" class="value" text-anchor="start" dominant-baseline="middle">4</text>
+<text x="463.0" y="352.0" class="label" text-anchor="end" dominant-baseline="middle">MapPalette#getColor(byte)</text>
+<path d="M473.0,346.0 H500.3 Q504.3,346.0 504.3,350.0 V354.0 Q504.3,358.0 500.3,358.0 H473.0 Z" class="code"><title>MapPalette#getColor(byte): 4 plugins - plugin&#x27;s own code</title></path>
+<text x="510.3" y="352.0" class="value" text-anchor="start" dominant-baseline="middle">4</text>
+<text x="463.0" y="376.0" class="label" text-anchor="end" dominant-baseline="middle">BlockState#setRawData(byte)</text>
+<path d="M473.0,370.0 H496.5 V382.0 H473.0 Z" class="code"><title>BlockState#setRawData(byte): 3 plugins - plugin&#x27;s own code</title></path>
+<path d="M498.5,370.0 H649.1 Q653.1,370.0 653.1,374.0 V378.0 Q653.1,382.0 649.1,382.0 H498.5 Z" class="library"><title>BlockState#setRawData(byte): 20 plugins - only via a bundled library</title></path>
+<text x="659.1" y="376.0" class="value" text-anchor="start" dominant-baseline="middle">23</text>
+<text x="463.0" y="400.0" class="label" text-anchor="end" dominant-baseline="middle">BlockState#getRawData()</text>
+<path d="M473.0,394.0 H496.5 V406.0 H473.0 Z" class="code"><title>BlockState#getRawData(): 3 plugins - plugin&#x27;s own code</title></path>
+<path d="M498.5,394.0 H637.5 V406.0 H498.5 Z" class="library"><title>BlockState#getRawData(): 18 plugins - only via a bundled library</title></path>
+<path d="M639.5,394.0 H641.3 Q645.3,394.0 645.3,398.0 V402.0 Q645.3,406.0 641.3,406.0 H639.5 Z" class="version"><title>BlockState#getRawData(): 1 plugins - only via a version-specific module</title></path>
+<text x="651.3" y="400.0" class="value" text-anchor="start" dominant-baseline="middle">22</text>
+<text x="463.0" y="424.0" class="label" text-anchor="end" dominant-baseline="middle">DyeColor#getDyeData()</text>
+<path d="M473.0,418.0 H496.5 V430.0 H473.0 Z" class="code"><title>DyeColor#getDyeData(): 3 plugins - plugin&#x27;s own code</title></path>
+<path d="M498.5,418.0 H512.1 V430.0 H498.5 Z" class="library"><title>DyeColor#getDyeData(): 2 plugins - only via a bundled library</title></path>
+<path d="M514.1,418.0 H516.0 Q520.0,418.0 520.0,422.0 V426.0 Q520.0,430.0 516.0,430.0 H514.1 Z" class="version"><title>DyeColor#getDyeData(): 1 plugins - only via a version-specific module</title></path>
+<text x="526.0" y="424.0" class="value" text-anchor="start" dominant-baseline="middle">6</text>
+<text x="463.0" y="448.0" class="label" text-anchor="end" dominant-baseline="middle">BukkitScheduler#scheduleAsyncRepeatingTask(Plugin, Runnable, long, long)</text>
+<path d="M473.0,442.0 H496.5 V454.0 H473.0 Z" class="code"><title>BukkitScheduler#scheduleAsyncRepeatingTask(Plugin, Runnable, long, long): 3 plugins - plugin&#x27;s own code</title></path>
+<path d="M498.5,442.0 H500.3 Q504.3,442.0 504.3,446.0 V450.0 Q504.3,454.0 500.3,454.0 H498.5 Z" class="library"><title>BukkitScheduler#scheduleAsyncRepeatingTask(Plugin, Runnable, long, long): 1 plugins - only via a bundled library</title></path>
+<text x="510.3" y="448.0" class="value" text-anchor="start" dominant-baseline="middle">4</text>
+<text x="463.0" y="472.0" class="label" text-anchor="end" dominant-baseline="middle">new ItemStack(Material, int, short, Byte)</text>
+<path d="M473.0,466.0 H496.5 V478.0 H473.0 Z" class="code"><title>new ItemStack(Material, int, short, Byte): 3 plugins - plugin&#x27;s own code</title></path>
+<path d="M498.5,466.0 H500.3 Q504.3,466.0 504.3,470.0 V474.0 Q504.3,478.0 500.3,478.0 H498.5 Z" class="version"><title>new ItemStack(Material, int, short, Byte): 1 plugins - only via a version-specific module</title></path>
+<text x="510.3" y="472.0" class="value" text-anchor="start" dominant-baseline="middle">4</text>
+<text x="463.0" y="496.0" class="label" text-anchor="end" dominant-baseline="middle">Material#getNewData(byte)</text>
+<path d="M473.0,490.0 H488.6 V502.0 H473.0 Z" class="code"><title>Material#getNewData(byte): 2 plugins - plugin&#x27;s own code</title></path>
+<path d="M490.6,490.0 H641.3 Q645.3,490.0 645.3,494.0 V498.0 Q645.3,502.0 641.3,502.0 H490.6 Z" class="library"><title>Material#getNewData(byte): 20 plugins - only via a bundled library</title></path>
+<text x="651.3" y="496.0" class="value" text-anchor="start" dominant-baseline="middle">22</text>
+<text x="463.0" y="520.0" class="label" text-anchor="end" dominant-baseline="middle">MaterialData#setData(byte)</text>
+<path d="M473.0,514.0 H488.6 V526.0 H473.0 Z" class="code"><title>MaterialData#setData(byte): 2 plugins - plugin&#x27;s own code</title></path>
+<path d="M490.6,514.0 H641.3 Q645.3,514.0 645.3,518.0 V522.0 Q645.3,526.0 641.3,526.0 H490.6 Z" class="library"><title>MaterialData#setData(byte): 20 plugins - only via a bundled library</title></path>
+<text x="651.3" y="520.0" class="value" text-anchor="start" dominant-baseline="middle">22</text>
+<text x="463.0" y="544.0" class="label" text-anchor="end" dominant-baseline="middle">EntityType#fromId(int)</text>
+<path d="M473.0,538.0 H488.6 V550.0 H473.0 Z" class="code"><title>EntityType#fromId(int): 2 plugins - plugin&#x27;s own code</title></path>
+<path d="M490.6,538.0 H539.5 Q543.5,538.0 543.5,542.0 V546.0 Q543.5,550.0 539.5,550.0 H490.6 Z" class="library"><title>EntityType#fromId(int): 7 plugins - only via a bundled library</title></path>
+<text x="549.5" y="544.0" class="value" text-anchor="start" dominant-baseline="middle">9</text>
+<text x="463.0" y="568.0" class="label" text-anchor="end" dominant-baseline="middle">BukkitScheduler#scheduleAsyncDelayedTask(Plugin, Runnable, long)</text>
+<path d="M473.0,562.0 H488.6 V574.0 H473.0 Z" class="code"><title>BukkitScheduler#scheduleAsyncDelayedTask(Plugin, Runnable, long): 2 plugins - plugin&#x27;s own code</title></path>
+<path d="M490.6,562.0 H492.5 Q496.5,562.0 496.5,566.0 V570.0 Q496.5,574.0 492.5,574.0 H490.6 Z" class="library"><title>BukkitScheduler#scheduleAsyncDelayedTask(Plugin, Runnable, long): 1 plugins - only via a bundled library</title></path>
+<text x="502.5" y="568.0" class="value" text-anchor="start" dominant-baseline="middle">3</text>
+<text x="463.0" y="592.0" class="label" text-anchor="end" dominant-baseline="middle">MapPalette#imageToBytes(Image)</text>
+<path d="M473.0,586.0 H484.6 Q488.6,586.0 488.6,590.0 V594.0 Q488.6,598.0 484.6,598.0 H473.0 Z" class="code"><title>MapPalette#imageToBytes(Image): 2 plugins - plugin&#x27;s own code</title></path>
+<text x="494.6" y="592.0" class="value" text-anchor="start" dominant-baseline="middle">2</text>
+<text x="463.0" y="616.0" class="label" text-anchor="end" dominant-baseline="middle">MapPalette#matchColor(int, int, int)</text>
+<path d="M473.0,610.0 H484.6 Q488.6,610.0 488.6,614.0 V618.0 Q488.6,622.0 484.6,622.0 H473.0 Z" class="code"><title>MapPalette#matchColor(int, int, int): 2 plugins - plugin&#x27;s own code</title></path>
+<text x="494.6" y="616.0" class="value" text-anchor="start" dominant-baseline="middle">2</text>
+<text x="463.0" y="640.0" class="label" text-anchor="end" dominant-baseline="middle">MapPalette#matchColor(Color)</text>
+<path d="M473.0,634.0 H484.6 Q488.6,634.0 488.6,638.0 V642.0 Q488.6,646.0 484.6,646.0 H473.0 Z" class="code"><title>MapPalette#matchColor(Color): 2 plugins - plugin&#x27;s own code</title></path>
+<text x="494.6" y="640.0" class="value" text-anchor="start" dominant-baseline="middle">2</text>
+<text x="463.0" y="664.0" class="label" text-anchor="end" dominant-baseline="middle">BukkitScheduler#scheduleAsyncDelayedTask(Plugin, Runnable)</text>
+<path d="M473.0,658.0 H476.8 Q480.8,658.0 480.8,662.0 V666.0 Q480.8,670.0 476.8,670.0 H473.0 Z" class="code"><title>BukkitScheduler#scheduleAsyncDelayedTask(Plugin, Runnable): 1 plugins - plugin&#x27;s own code</title></path>
+<text x="486.8" y="664.0" class="value" text-anchor="start" dominant-baseline="middle">1</text>
+<text x="463.0" y="688.0" class="label" text-anchor="end" dominant-baseline="middle">DyeColor#getByDyeData(byte)</text>
+<path d="M473.0,682.0 H476.8 Q480.8,682.0 480.8,686.0 V690.0 Q480.8,694.0 476.8,694.0 H473.0 Z" class="code"><title>DyeColor#getByDyeData(byte): 1 plugins - plugin&#x27;s own code</title></path>
+<text x="486.8" y="688.0" class="value" text-anchor="start" dominant-baseline="middle">1</text>
+<text x="463.0" y="712.0" class="label" text-anchor="end" dominant-baseline="middle">Instrument#getType()</text>
+<path d="M473.0,706.0 H476.8 Q480.8,706.0 480.8,710.0 V714.0 Q480.8,718.0 476.8,718.0 H473.0 Z" class="code"><title>Instrument#getType(): 1 plugins - plugin&#x27;s own code</title></path>
+<text x="486.8" y="712.0" class="value" text-anchor="start" dominant-baseline="middle">1</text>
+<text x="463.0" y="736.0" class="label" text-anchor="end" dominant-baseline="middle">new MapCursor(byte, byte, byte, byte, boolean)</text>
+<path d="M473.0,730.0 H476.8 Q480.8,730.0 480.8,734.0 V738.0 Q480.8,742.0 476.8,742.0 H473.0 Z" class="code"><title>new MapCursor(byte, byte, byte, byte, boolean): 1 plugins - plugin&#x27;s own code</title></path>
+<text x="486.8" y="736.0" class="value" text-anchor="start" dominant-baseline="middle">1</text>
+<text x="463.0" y="760.0" class="label" text-anchor="end" dominant-baseline="middle">new Lever(Material, byte)</text>
+<path d="M473.0,754.0 H476.8 Q480.8,754.0 480.8,758.0 V762.0 Q480.8,766.0 476.8,766.0 H473.0 Z" class="code"><title>new Lever(Material, byte): 1 plugins - plugin&#x27;s own code</title></path>
+<text x="486.8" y="760.0" class="value" text-anchor="start" dominant-baseline="middle">1</text>
+<text x="463.0" y="784.0" class="label" text-anchor="end" dominant-baseline="middle">TreeSpecies#getData()</text>
+<path d="M473.0,778.0 H617.8 Q621.8,778.0 621.8,782.0 V786.0 Q621.8,790.0 617.8,790.0 H473.0 Z" class="library"><title>TreeSpecies#getData(): 19 plugins - only via a bundled library</title></path>
+<text x="627.8" y="784.0" class="value" text-anchor="start" dominant-baseline="middle">19</text>
+</svg>

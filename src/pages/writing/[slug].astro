@@ -1,0 +1,92 @@
+---
+import type { MarkdownInstance, GetStaticPaths } from "astro";
+import "../../styles/global.css";
+import "../../styles/docs.css";
+import Navbar from "../../components/Navbar.astro";
+
+interface Frontmatter {
+    title: string;
+    lead?: string;
+    date?: string;
+    tags?: string[];
+    appendix?: boolean;
+    parent?: string;
+    source?: string;
+}
+
+type WritingDoc = MarkdownInstance<Frontmatter>;
+
+export const getStaticPaths: GetStaticPaths = () => {
+    const globResults = import.meta.glob<WritingDoc>(
+        "../../data/writing/*.md",
+        { eager: true },
+    );
+    return Object.values(globResults).map((doc) => {
+        const slug =
+            doc.file.split("/").pop()?.replace(".md", "") || "unknown-post";
+        return {
+            params: { slug },
+            props: { doc },
+        };
+    });
+};
+
+interface Props {
+    doc: WritingDoc;
+}
+
+const { doc } = Astro.props;
+const { Content, frontmatter } = doc;
+const back = frontmatter.parent
+    ? { href: `/writing/${frontmatter.parent}`, text: "← Back" }
+    : { href: "/writing", text: "← Back to Writing" };
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Miles | {frontmatter.title}</title>
+    </head>
+    <body>
+        <Navbar />
+
+        <main class="docs-content project-content writing-content">
+            <a href={back.href} class="back-link">{back.text}</a>
+
+            <header class="doc-header">
+                <h1>{frontmatter.title}</h1>
+                {frontmatter.date && <span class="doc-author">{frontmatter.date}</span>}
+                {
+                    frontmatter.tags && (
+                        <div class="tech-pills">
+                            {frontmatter.tags.map((t) => (
+                                <span class="pill">{t}</span>
+                            ))}
+                        </div>
+                    )
+                }
+                {frontmatter.lead && <p class="lead-text">{frontmatter.lead}</p>}
+                {
+                    frontmatter.source && (
+                        <p class="source-note">
+                            Hard to read here, or want to see the code?{" "}
+                            <a
+                                href={frontmatter.source}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View the report on GitHub →
+                            </a>
+                        </p>
+                    )
+                }
+            </header>
+
+            <article class="markdown-body">
+                <Content />
+            </article>
+        </main>
+    </body>
+</html>

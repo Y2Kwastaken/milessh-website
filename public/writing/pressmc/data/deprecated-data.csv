@@ -1,0 +1,142 @@
+# List of deprecated types and methods
+# type either TYPE, METHOD, CONSTRUCTOR, FIELD
+# path absolute identifying path
+# owning type of the method or constructor TYPE's do not have owners filled with "null" instead
+type,path,owner
+METHOD,getEntitiesByClass(java.lang.Class[]),org.bukkit.World
+TYPE,org.bukkit.event.player.PlayerChatEvent,null
+METHOD,getRecipients(),org.bukkit.event.player.PlayerCommandPreprocessEvent
+METHOD,getResult(),org.bukkit.event.player.AsyncPlayerPreLoginEvent
+METHOD,setResult(org.bukkit.event.player.PlayerPreLoginEvent.Result),org.bukkit.event.player.AsyncPlayerPreLoginEvent
+METHOD,"disallow(org.bukkit.event.player.PlayerPreLoginEvent.Result, java.lang.String)",org.bukkit.event.player.AsyncPlayerPreLoginEvent
+METHOD,old(),org.bukkit.event.player.AsyncPlayerPreLoginEvent.Result
+TYPE,org.bukkit.event.player.PlayerPreLoginEvent,null
+METHOD,"scheduleAsyncDelayedTask(org.bukkit.plugin.Plugin, java.lang.Runnable, long)",org.bukkit.scheduler.BukkitScheduler
+METHOD,"scheduleAsyncDelayedTask(org.bukkit.plugin.Plugin, java.lang.Runnable)",org.bukkit.scheduler.BukkitScheduler
+METHOD,"scheduleAsyncRepeatingTask(org.bukkit.plugin.Plugin, java.lang.Runnable, long, long)",org.bukkit.scheduler.BukkitScheduler
+METHOD,getHingeCorner(),org.bukkit.material.Door
+CONSTRUCTOR,"ItemStack(org.bukkit.Material, int, short, java.lang.Byte)",org.bukkit.inventory.ItemStack
+CONSTRUCTOR,JavaPluginLoader(org.bukkit.Server),org.bukkit.plugin.java.JavaPluginLoader
+METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent
+METHOD,"getData(int, int, int)",org.bukkit.ChunkSnapshot
+METHOD,getData(),org.bukkit.CoalType
+METHOD,getByData(byte),org.bukkit.CoalType
+METHOD,getData(),org.bukkit.CropState
+METHOD,getByData(byte),org.bukkit.CropState
+METHOD,getDyeData(),org.bukkit.DyeColor
+METHOD,getByDyeData(byte),org.bukkit.DyeColor
+METHOD,getData(),org.bukkit.GrassSpecies
+METHOD,getByData(byte),org.bukkit.GrassSpecies
+METHOD,getType(),org.bukkit.Instrument
+METHOD,getByType(byte),org.bukkit.Instrument
+METHOD,getNewData(byte),org.bukkit.Material
+METHOD,getData(),org.bukkit.SandstoneType
+METHOD,getByData(byte),org.bukkit.SandstoneType
+METHOD,getData(),org.bukkit.TreeSpecies
+METHOD,getByData(byte),org.bukkit.TreeSpecies
+METHOD,getData(),org.bukkit.block.Block
+METHOD,getRawData(),org.bukkit.block.BlockState
+METHOD,setRawData(byte),org.bukkit.block.BlockState
+METHOD,getName(),org.bukkit.entity.EntityType
+METHOD,getTypeId(),org.bukkit.entity.EntityType
+METHOD,fromId(int),org.bukkit.entity.EntityType
+METHOD,getMaterial(),org.bukkit.entity.FallingBlock
+METHOD,getId(),org.bukkit.entity.Ocelot.Type
+METHOD,getType(int),org.bukkit.entity.Ocelot.Type
+METHOD,"playNote(org.bukkit.Location, byte, byte)",org.bukkit.entity.Player
+METHOD,"playEffect(org.bukkit.Location, org.bukkit.Effect, int)",org.bukkit.entity.Player
+METHOD,"sendBlockChange(org.bukkit.Location, org.bukkit.Material, byte)",org.bukkit.entity.Player
+CONSTRUCTOR,"FurnaceRecipe(org.bukkit.inventory.ItemStack, org.bukkit.Material, int)",org.bukkit.inventory.FurnaceRecipe
+METHOD,"setInput(org.bukkit.Material, int)",org.bukkit.inventory.FurnaceRecipe
+METHOD,"setIngredient(char, org.bukkit.Material, int)",org.bukkit.inventory.ShapedRecipe
+METHOD,"addIngredient(org.bukkit.Material, int)",org.bukkit.inventory.ShapelessRecipe
+METHOD,"addIngredient(int, org.bukkit.Material, int)",org.bukkit.inventory.ShapelessRecipe
+METHOD,"removeIngredient(org.bukkit.Material, int)",org.bukkit.inventory.ShapelessRecipe
+METHOD,"removeIngredient(int, org.bukkit.Material, int)",org.bukkit.inventory.ShapelessRecipe
+# rows below: remainder of Bukkit "Deprecate magic values" (2013-08-19), oldest-deprecations.md rows 51-136
+CONSTRUCTOR,"MapCursor(byte, byte, byte, byte, boolean)",org.bukkit.map.MapCursor
+METHOD,setRawType(byte),org.bukkit.map.MapCursor
+METHOD,"addCursor(int, int, byte, byte)",org.bukkit.map.MapCursorCollection
+METHOD,"addCursor(int, int, byte, byte, boolean)",org.bukkit.map.MapCursorCollection
+FIELD,TRANSPARENT,org.bukkit.map.MapPalette
+FIELD,LIGHT_GREEN,org.bukkit.map.MapPalette
+FIELD,LIGHT_BROWN,org.bukkit.map.MapPalette
+FIELD,GRAY_1,org.bukkit.map.MapPalette
+FIELD,RED,org.bukkit.map.MapPalette
+FIELD,PALE_BLUE,org.bukkit.map.MapPalette
+FIELD,GRAY_2,org.bukkit.map.MapPalette
+FIELD,DARK_GREEN,org.bukkit.map.MapPalette
+FIELD,WHITE,org.bukkit.map.MapPalette
+FIELD,LIGHT_GRAY,org.bukkit.map.MapPalette
+FIELD,BROWN,org.bukkit.map.MapPalette
+FIELD,DARK_GRAY,org.bukkit.map.MapPalette
+FIELD,BLUE,org.bukkit.map.MapPalette
+FIELD,DARK_BROWN,org.bukkit.map.MapPalette
+METHOD,imageToBytes(java.awt.Image),org.bukkit.map.MapPalette
+METHOD,"matchColor(int, int, int)",org.bukkit.map.MapPalette
+METHOD,matchColor(java.awt.Color),org.bukkit.map.MapPalette
+METHOD,getColor(byte),org.bukkit.map.MapPalette
+CONSTRUCTOR,"Bed(org.bukkit.Material, byte)",org.bukkit.material.Bed
+CONSTRUCTOR,"Button(org.bukkit.Material, byte)",org.bukkit.material.Button
+CONSTRUCTOR,"Cake(org.bukkit.Material, byte)",org.bukkit.material.Cake
+CONSTRUCTOR,"Cauldron(org.bukkit.Material, byte)",org.bukkit.material.Cauldron
+CONSTRUCTOR,Cauldron(byte),org.bukkit.material.Cauldron
+CONSTRUCTOR,"Chest(org.bukkit.Material, byte)",org.bukkit.material.Chest
+CONSTRUCTOR,"Coal(org.bukkit.Material, byte)",org.bukkit.material.Coal
+CONSTRUCTOR,"CocoaPlant(org.bukkit.Material, byte)",org.bukkit.material.CocoaPlant
+CONSTRUCTOR,"Command(org.bukkit.Material, byte)",org.bukkit.material.Command
+CONSTRUCTOR,"Crops(org.bukkit.Material, byte)",org.bukkit.material.Crops
+CONSTRUCTOR,"DetectorRail(org.bukkit.Material, byte)",org.bukkit.material.DetectorRail
+CONSTRUCTOR,"Diode(org.bukkit.Material, byte)",org.bukkit.material.Diode
+CONSTRUCTOR,"DirectionalContainer(org.bukkit.Material, byte)",org.bukkit.material.DirectionalContainer
+CONSTRUCTOR,"Dispenser(org.bukkit.Material, byte)",org.bukkit.material.Dispenser
+CONSTRUCTOR,"Door(org.bukkit.Material, byte)",org.bukkit.material.Door
+CONSTRUCTOR,"Dye(org.bukkit.Material, byte)",org.bukkit.material.Dye
+CONSTRUCTOR,"EnderChest(org.bukkit.Material, byte)",org.bukkit.material.EnderChest
+CONSTRUCTOR,"ExtendedRails(org.bukkit.Material, byte)",org.bukkit.material.ExtendedRails
+METHOD,getConvertedData(),org.bukkit.material.ExtendedRails
+CONSTRUCTOR,"FlowerPot(org.bukkit.Material, byte)",org.bukkit.material.FlowerPot
+CONSTRUCTOR,"Furnace(org.bukkit.Material, byte)",org.bukkit.material.Furnace
+CONSTRUCTOR,"FurnaceAndDispenser(org.bukkit.Material, byte)",org.bukkit.material.FurnaceAndDispenser
+CONSTRUCTOR,"Ladder(org.bukkit.Material, byte)",org.bukkit.material.Ladder
+CONSTRUCTOR,"Leaves(org.bukkit.Material, byte)",org.bukkit.material.Leaves
+CONSTRUCTOR,"Lever(org.bukkit.Material, byte)",org.bukkit.material.Lever
+CONSTRUCTOR,"LongGrass(org.bukkit.Material, byte)",org.bukkit.material.LongGrass
+CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData
+METHOD,getData(),org.bukkit.material.MaterialData
+METHOD,setData(byte),org.bukkit.material.MaterialData
+CONSTRUCTOR,"MonsterEggs(org.bukkit.Material, byte)",org.bukkit.material.MonsterEggs
+CONSTRUCTOR,"Mushroom(org.bukkit.Material, byte)",org.bukkit.material.Mushroom
+CONSTRUCTOR,"NetherWarts(org.bukkit.Material, byte)",org.bukkit.material.NetherWarts
+CONSTRUCTOR,"PistonBaseMaterial(org.bukkit.Material, byte)",org.bukkit.material.PistonBaseMaterial
+CONSTRUCTOR,"PistonExtensionMaterial(org.bukkit.Material, byte)",org.bukkit.material.PistonExtensionMaterial
+CONSTRUCTOR,"PoweredRail(org.bukkit.Material, byte)",org.bukkit.material.PoweredRail
+CONSTRUCTOR,"PressurePlate(org.bukkit.Material, byte)",org.bukkit.material.PressurePlate
+CONSTRUCTOR,"Pumpkin(org.bukkit.Material, byte)",org.bukkit.material.Pumpkin
+CONSTRUCTOR,"Rails(org.bukkit.Material, byte)",org.bukkit.material.Rails
+METHOD,getConvertedData(),org.bukkit.material.Rails
+CONSTRUCTOR,"RedstoneTorch(org.bukkit.Material, byte)",org.bukkit.material.RedstoneTorch
+CONSTRUCTOR,"RedstoneWire(org.bukkit.Material, byte)",org.bukkit.material.RedstoneWire
+CONSTRUCTOR,"Sandstone(org.bukkit.Material, byte)",org.bukkit.material.Sandstone
+CONSTRUCTOR,"Sign(org.bukkit.Material, byte)",org.bukkit.material.Sign
+CONSTRUCTOR,"SimpleAttachableMaterialData(org.bukkit.Material, byte)",org.bukkit.material.SimpleAttachableMaterialData
+CONSTRUCTOR,"Skull(org.bukkit.Material, byte)",org.bukkit.material.Skull
+CONSTRUCTOR,"SmoothBrick(org.bukkit.Material, byte)",org.bukkit.material.SmoothBrick
+CONSTRUCTOR,"SpawnEgg(org.bukkit.Material, byte)",org.bukkit.material.SpawnEgg
+CONSTRUCTOR,SpawnEgg(byte),org.bukkit.material.SpawnEgg
+CONSTRUCTOR,"Stairs(org.bukkit.Material, byte)",org.bukkit.material.Stairs
+CONSTRUCTOR,"Step(org.bukkit.Material, byte)",org.bukkit.material.Step
+METHOD,setTextureIndex(int),org.bukkit.material.Step
+CONSTRUCTOR,"TexturedMaterial(org.bukkit.Material, byte)",org.bukkit.material.TexturedMaterial
+METHOD,getTextureIndex(),org.bukkit.material.TexturedMaterial
+METHOD,setTextureIndex(int),org.bukkit.material.TexturedMaterial
+CONSTRUCTOR,"Torch(org.bukkit.Material, byte)",org.bukkit.material.Torch
+CONSTRUCTOR,"TrapDoor(org.bukkit.Material, byte)",org.bukkit.material.TrapDoor
+CONSTRUCTOR,"Tree(org.bukkit.Material, byte)",org.bukkit.material.Tree
+CONSTRUCTOR,"Tripwire(org.bukkit.Material, byte)",org.bukkit.material.Tripwire
+CONSTRUCTOR,"TripwireHook(org.bukkit.Material, byte)",org.bukkit.material.TripwireHook
+CONSTRUCTOR,"Vine(org.bukkit.Material, byte)",org.bukkit.material.Vine
+CONSTRUCTOR,Vine(byte),org.bukkit.material.Vine
+CONSTRUCTOR,"WoodenStep(org.bukkit.Material, byte)",org.bukkit.material.WoodenStep
+CONSTRUCTOR,"Wool(org.bukkit.Material, byte)",org.bukkit.material.Wool
+METHOD,getId(),org.bukkit.potion.PotionEffectType

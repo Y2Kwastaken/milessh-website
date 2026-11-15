@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="787" height="426" viewBox="0 0 787 426" role="img" aria-label="How much of the deprecated-API usage comes from bundled XSeries" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>How much of the deprecated-API usage comes from bundled XSeries</title>
+<style>
+  .surface { fill: #fcfcfb; }
+  .title { fill: #0b0b0b; font-size: 15px; font-weight: 600; }
+  .subtitle, .legend, .label { fill: #52514e; font-size: 12px; }
+  .tick { fill: #898781; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .value { fill: #0b0b0b; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ink-on-fill-light { fill: #ffffff; font-size: 11px; }
+  .ink-on-fill-dark { fill: #0b0b0b; font-size: 11px; }
+  .xseries { fill: #eb6834; }
+  .other { fill: #c3c2b7; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .title { fill: #f0efec; }
+    .subtitle, .legend, .label { fill: #c3c2b7; }
+    .value { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .xseries { fill: #d95926; }
+    .other { fill: #52514e; }
+  }
+</style>
+<rect class="surface" width="787" height="426" rx="8"/>
+<text x="24.0" y="30.0" class="title" text-anchor="start" dominant-baseline="middle">How much of the deprecated-API usage comes from bundled XSeries</text>
+<text x="24.0" y="50.0" class="subtitle" text-anchor="start" dominant-baseline="middle">16 of the 111 plugins referencing any entry do so only through XSeries; entries XSeries touches are shown</text>
+<rect x="24.0" y="71.0" width="10" height="10" rx="2" class="xseries"/>
+<text x="39.0" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">Plugins referencing it only through XSeries</text>
+<rect x="327.4" y="71.0" width="10" height="10" rx="2" class="other"/>
+<text x="342.4" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">All other plugins referencing it</text>
+<line x1="227.6" y1="96.0" x2="227.6" y2="386.0" class="grid"/>
+<text x="227.6" y="400.0" class="tick" text-anchor="middle" dominant-baseline="middle">0</text>
+<line x1="305.9" y1="96.0" x2="305.9" y2="386.0" class="grid"/>
+<text x="305.9" y="400.0" class="tick" text-anchor="middle" dominant-baseline="middle">10</text>
+<line x1="384.2" y1="96.0" x2="384.2" y2="386.0" class="grid"/>
+<text x="384.2" y="400.0" class="tick" text-anchor="middle" dominant-baseline="middle">20</text>
+<line x1="462.6" y1="96.0" x2="462.6" y2="386.0" class="grid"/>
+<text x="462.6" y="400.0" class="tick" text-anchor="middle" dominant-baseline="middle">30</text>
+<line x1="540.9" y1="96.0" x2="540.9" y2="386.0" class="grid"/>
+<text x="540.9" y="400.0" class="tick" text-anchor="middle" dominant-baseline="middle">40</text>
+<line x1="619.2" y1="96.0" x2="619.2" y2="386.0" class="grid"/>
+<text x="619.2" y="400.0" class="tick" text-anchor="middle" dominant-baseline="middle">50</text>
+<line x1="697.6" y1="96.0" x2="697.6" y2="386.0" class="grid"/>
+<text x="697.6" y="400.0" class="tick" text-anchor="middle" dominant-baseline="middle">60</text>
+<line x1="227.6" y1="96.0" x2="227.6" y2="386.0" class="axis"/>
+<text x="217.6" y="113.0" class="label" text-anchor="end" dominant-baseline="middle">PotionEffectType#getId()</text>
+<path d="M227.6,107.0 H376.4 V119.0 H227.6 Z" class="xseries"><title>PotionEffectType#getId(): 19 of 33 plugins reference it only through bundled XSeries</title></path>
+<path d="M378.4,107.0 H482.1 Q486.1,107.0 486.1,111.0 V115.0 Q486.1,119.0 482.1,119.0 H378.4 Z" class="other"><title>PotionEffectType#getId(): 14 of 33 plugins reference it some other way</title></path>
+<text x="492.1" y="113.0" class="value" text-anchor="start" dominant-baseline="middle">19 of 33</text>
+<text x="217.6" y="139.0" class="label" text-anchor="end" dominant-baseline="middle">BlockState#setRawData(byte)</text>
+<path d="M227.6,133.0 H376.4 V145.0 H227.6 Z" class="xseries"><title>BlockState#setRawData(byte): 19 of 23 plugins reference it only through bundled XSeries</title></path>
+<path d="M378.4,133.0 H403.7 Q407.7,133.0 407.7,137.0 V141.0 Q407.7,145.0 403.7,145.0 H378.4 Z" class="other"><title>BlockState#setRawData(byte): 4 of 23 plugins reference it some other way</title></path>
+<text x="413.7" y="139.0" class="value" text-anchor="start" dominant-baseline="middle">19 of 23</text>
+<text x="217.6" y="165.0" class="label" text-anchor="end" dominant-baseline="middle">Material#getNewData(byte)</text>
+<path d="M227.6,159.0 H376.4 V171.0 H227.6 Z" class="xseries"><title>Material#getNewData(byte): 19 of 22 plugins reference it only through bundled XSeries</title></path>
+<path d="M378.4,159.0 H395.9 Q399.9,159.0 399.9,163.0 V167.0 Q399.9,171.0 395.9,171.0 H378.4 Z" class="other"><title>Material#getNewData(byte): 3 of 22 plugins reference it some other way</title></path>
+<text x="405.9" y="165.0" class="value" text-anchor="start" dominant-baseline="middle">19 of 22</text>
+<text x="217.6" y="191.0" class="label" text-anchor="end" dominant-baseline="middle">MaterialData#setData(byte)</text>
+<path d="M227.6,185.0 H376.4 V197.0 H227.6 Z" class="xseries"><title>MaterialData#setData(byte): 19 of 22 plugins reference it only through bundled XSeries</title></path>
+<path d="M378.4,185.0 H395.9 Q399.9,185.0 399.9,189.0 V193.0 Q399.9,197.0 395.9,197.0 H378.4 Z" class="other"><title>MaterialData#setData(byte): 3 of 22 plugins reference it some other way</title></path>
+<text x="405.9" y="191.0" class="value" text-anchor="start" dominant-baseline="middle">19 of 22</text>
+<text x="217.6" y="217.0" class="label" text-anchor="end" dominant-baseline="middle">TreeSpecies#getData()</text>
+<path d="M227.6,211.0 H372.4 Q376.4,211.0 376.4,215.0 V219.0 Q376.4,223.0 372.4,223.0 H227.6 Z" class="xseries"><title>TreeSpecies#getData(): 19 of 19 plugins reference it only through bundled XSeries</title></path>
+<text x="382.4" y="217.0" class="value" text-anchor="start" dominant-baseline="middle">19 of 19</text>
+<text x="217.6" y="243.0" class="label" text-anchor="end" dominant-baseline="middle">MaterialData#getData()</text>
+<path d="M227.6,237.0 H368.6 V249.0 H227.6 Z" class="xseries"><title>MaterialData#getData(): 18 of 38 plugins reference it only through bundled XSeries</title></path>
+<path d="M370.6,237.0 H521.2 Q525.2,237.0 525.2,241.0 V245.0 Q525.2,249.0 521.2,249.0 H370.6 Z" class="other"><title>MaterialData#getData(): 20 of 38 plugins reference it some other way</title></path>
+<text x="531.2" y="243.0" class="value" text-anchor="start" dominant-baseline="middle">18 of 38</text>
+<text x="217.6" y="269.0" class="label" text-anchor="end" dominant-baseline="middle">BlockState#getRawData()</text>
+<path d="M227.6,263.0 H368.6 V275.0 H227.6 Z" class="xseries"><title>BlockState#getRawData(): 18 of 22 plugins reference it only through bundled XSeries</title></path>
+<path d="M370.6,263.0 H395.9 Q399.9,263.0 399.9,267.0 V271.0 Q399.9,275.0 395.9,275.0 H370.6 Z" class="other"><title>BlockState#getRawData(): 4 of 22 plugins reference it some other way</title></path>
+<text x="405.9" y="269.0" class="value" text-anchor="start" dominant-baseline="middle">18 of 22</text>
+<text x="217.6" y="295.0" class="label" text-anchor="end" dominant-baseline="middle">Block#getData()</text>
+<path d="M227.6,289.0 H360.7 V301.0 H227.6 Z" class="xseries"><title>Block#getData(): 17 of 33 plugins reference it only through bundled XSeries</title></path>
+<path d="M362.7,289.0 H482.1 Q486.1,289.0 486.1,293.0 V297.0 Q486.1,301.0 482.1,301.0 H362.7 Z" class="other"><title>Block#getData(): 16 of 33 plugins reference it some other way</title></path>
+<text x="492.1" y="295.0" class="value" text-anchor="start" dominant-baseline="middle">17 of 33</text>
+<text x="217.6" y="321.0" class="label" text-anchor="end" dominant-baseline="middle">EntityType#getName()</text>
+<path d="M227.6,315.0 H337.2 V327.0 H227.6 Z" class="xseries"><title>EntityType#getName(): 14 of 56 plugins reference it only through bundled XSeries</title></path>
+<path d="M339.2,315.0 H662.2 Q666.2,315.0 666.2,319.0 V323.0 Q666.2,327.0 662.2,327.0 H339.2 Z" class="other"><title>EntityType#getName(): 42 of 56 plugins reference it some other way</title></path>
+<text x="672.2" y="321.0" class="value" text-anchor="start" dominant-baseline="middle">14 of 56</text>
+<text x="217.6" y="347.0" class="label" text-anchor="end" dominant-baseline="middle">new MaterialData(Material, byte)</text>
+<path d="M227.6,341.0 H337.2 V353.0 H227.6 Z" class="xseries"><title>new MaterialData(Material, byte): 14 of 28 plugins reference it only through bundled XSeries</title></path>
+<path d="M339.2,341.0 H442.9 Q446.9,341.0 446.9,345.0 V349.0 Q446.9,353.0 442.9,353.0 H339.2 Z" class="other"><title>new MaterialData(Material, byte): 14 of 28 plugins reference it some other way</title></path>
+<text x="452.9" y="347.0" class="value" text-anchor="start" dominant-baseline="middle">14 of 28</text>
+<text x="217.6" y="373.0" class="label" text-anchor="end" dominant-baseline="middle">DyeColor#getDyeData()</text>
+<path d="M227.6,367.0 H243.2 V379.0 H227.6 Z" class="xseries"><title>DyeColor#getDyeData(): 2 of 6 plugins reference it only through bundled XSeries</title></path>
+<path d="M245.2,367.0 H270.6 Q274.6,367.0 274.6,371.0 V375.0 Q274.6,379.0 270.6,379.0 H245.2 Z" class="other"><title>DyeColor#getDyeData(): 4 of 6 plugins reference it some other way</title></path>
+<text x="280.6" y="373.0" class="value" text-anchor="start" dominant-baseline="middle">2 of 6</text>
+</svg>

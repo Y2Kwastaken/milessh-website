@@ -1,0 +1,386 @@
+plugin,type,path,owner,uses
+hangar-BazaarFlux-1.2.6-SNAPSHOT.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,1
+hangar-Better-TPA-1.1.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+hangar-BetterChairs-1.20.0.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+hangar-BetterChairs-1.20.0.jar,METHOD,getData(),org.bukkit.block.Block,1
+hangar-BetterChairs-1.20.0.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+hangar-BetterChairs-1.20.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+hangar-BlueSlimeCore-2.9.9.529.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+hangar-BlueSlimeCore-2.9.9.529.jar,METHOD,getData(),org.bukkit.block.Block,4
+hangar-BlueSlimeCore-2.9.9.529.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+hangar-BlueSlimeCore-2.9.9.529.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+hangar-BlueSlimeCore-2.9.9.529.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+hangar-BlueSlimeCore-2.9.9.529.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+hangar-BlueSlimeCore-2.9.9.529.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+hangar-BlueSlimeCore-2.9.9.529.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+hangar-BlueSlimeCore-2.9.9.529.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+hangar-BlueSlimeCore-2.9.9.529.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+hangar-DeathChest-3.0.1.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,1
+hangar-Denizen-1.3.0-Build-1803.jar,METHOD,getColor(byte),org.bukkit.map.MapPalette,1
+hangar-Denizen-1.3.0-Build-1803.jar,TYPE,org.bukkit.event.player.PlayerChatEvent,null,21
+hangar-Denizen-1.3.0-Build-1803.jar,METHOD,"playEffect(org.bukkit.Location, org.bukkit.Effect, int)",org.bukkit.entity.Player,1
+hangar-Denizen-1.3.0-Build-1803.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+hangar-Denizen-1.3.0-Build-1803.jar,CONSTRUCTOR,"MapCursor(byte, byte, byte, byte, boolean)",org.bukkit.map.MapCursor,1
+hangar-Denizen-1.3.0-Build-1803.jar,METHOD,getDyeData(),org.bukkit.DyeColor,3
+hangar-EssenceStealPlugin-1.0.1.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+hangar-EssenceStealPlugin-1.0.1.jar,METHOD,getData(),org.bukkit.block.Block,4
+hangar-EssenceStealPlugin-1.0.1.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+hangar-EssenceStealPlugin-1.0.1.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+hangar-EssenceStealPlugin-1.0.1.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+hangar-EssenceStealPlugin-1.0.1.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+hangar-EssenceStealPlugin-1.0.1.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+hangar-EssenceStealPlugin-1.0.1.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+hangar-EssenceStealPlugin-1.0.1.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+hangar-EssenceStealPlugin-1.0.1.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+hangar-HoloMobHealth-2026.1.3.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,14
+hangar-HoloMobHealth-2026.1.3.jar,METHOD,getName(),org.bukkit.entity.EntityType,28
+hangar-InvSee-plus-plus-0.31.22.jar,CONSTRUCTOR,"ItemStack(org.bukkit.Material, int, short, java.lang.Byte)",org.bukkit.inventory.ItemStack,1
+hangar-IridiumSkyblock-4.0.9.1.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,2
+hangar-Kryptonite-2.1.1.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,2
+hangar-Kryptonite-2.1.1.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+hangar-LyttleNametag-1.3.3.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+hangar-MapEngine-1.8.12.jar,METHOD,"matchColor(int, int, int)",org.bukkit.map.MapPalette,2
+hangar-MapEngine-1.8.12.jar,METHOD,getColor(byte),org.bukkit.map.MapPalette,4
+hangar-Movecraft-8.0.0_beta-6.jar,METHOD,getRawData(),org.bukkit.block.BlockState,1
+hangar-Movecraft-8.0.0_beta-6.jar,METHOD,getData(),org.bukkit.block.Block,1
+hangar-NexaCombat-1.0.0.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+hangar-NexaCombat-1.0.0.jar,METHOD,getData(),org.bukkit.block.Block,4
+hangar-NexaCombat-1.0.0.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+hangar-NexaCombat-1.0.0.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+hangar-NexaCombat-1.0.0.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+hangar-NexaCombat-1.0.0.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+hangar-NexaCombat-1.0.0.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+hangar-NexaCombat-1.0.0.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+hangar-NexaCombat-1.0.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+hangar-NexaCombat-1.0.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,2
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,fromId(int),org.bukkit.entity.EntityType,1
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,2
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,getData(),org.bukkit.material.MaterialData,4
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,getData(),org.bukkit.block.Block,4
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+hangar-OldCombatMechanics-2.8.0.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+hangar-OldCombatMechanics-2.8.0.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+hangar-ProAntiTab-2.4.3.jar,METHOD,"scheduleAsyncDelayedTask(org.bukkit.plugin.Plugin, java.lang.Runnable, long)",org.bukkit.scheduler.BukkitScheduler,1
+hangar-ProAntiTab-2.4.3.jar,METHOD,"scheduleAsyncDelayedTask(org.bukkit.plugin.Plugin, java.lang.Runnable)",org.bukkit.scheduler.BukkitScheduler,1
+hangar-ProAntiTab-2.4.3.jar,METHOD,"scheduleAsyncRepeatingTask(org.bukkit.plugin.Plugin, java.lang.Runnable, long, long)",org.bukkit.scheduler.BukkitScheduler,1
+hangar-ProtocolLib-5.4.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+hangar-ProtocolLib-5.4.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,2
+hangar-ScreamingBedWars-0.2.44.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,2
+hangar-ScreamingBedWars-0.2.44.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+hangar-ScreamingBedWars-0.2.44.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+hangar-ScreamingBedWars-0.2.44.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+hangar-SilkSpawners-3.1.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,3
+hangar-TrollV4-4.5.31.jar,TYPE,org.bukkit.event.player.PlayerChatEvent,null,10
+hangar-TrollV4-4.5.31.jar,METHOD,"playEffect(org.bukkit.Location, org.bukkit.Effect, int)",org.bukkit.entity.Player,1
+hangar-TrollV4-4.5.31.jar,METHOD,"sendBlockChange(org.bukkit.Location, org.bukkit.Material, byte)",org.bukkit.entity.Player,1
+hangar-TrollV4-4.5.31.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+hangar-TrollV4-4.5.31.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+hangar-TrollV4-4.5.31.jar,METHOD,getData(),org.bukkit.block.Block,3
+hangar-TrollV4-4.5.31.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+hangar-TrollV4-4.5.31.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+hangar-TrollV4-4.5.31.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+hangar-TrollV4-4.5.31.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+hangar-TrollV4-4.5.31.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+hangar-TrollV4-4.5.31.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+hangar-UltraSetHome-1.7.7.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+hangar-WeaponMaster-1.13.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,2
+hangar-WeaponMaster-1.13.0.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,4
+hangar-WorldEditSUI-1.8.0.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+hangar-WorldEditSelectionVisualizer-2.1.10.jar,METHOD,getData(),org.bukkit.material.MaterialData,2
+hangar-WorldEditSelectionVisualizer-2.1.10.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+hangar-akropolis-1.10.5.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+hangar-akropolis-1.10.5.jar,METHOD,getData(),org.bukkit.block.Block,4
+hangar-akropolis-1.10.5.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+hangar-akropolis-1.10.5.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+hangar-akropolis-1.10.5.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+hangar-akropolis-1.10.5.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+hangar-akropolis-1.10.5.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+hangar-akropolis-1.10.5.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+hangar-akropolis-1.10.5.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+hangar-akropolis-1.10.5.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+hangar-slashspawn-1.0.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-antipopup-13.3.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-auramobs-2.2.1.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-auraskills-2.4.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-automatic-crafting-table-1.4.5.jar,METHOD,getRawData(),org.bukkit.block.BlockState,10
+modrinth-autotreechop-1.8.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-autotreechop-1.8.0.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-autotreechop-1.8.0.jar,METHOD,getData(),org.bukkit.block.Block,1
+modrinth-autotreechop-1.8.0.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-axafkzone-1.13.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,12
+modrinth-axgraves-1.32.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,12
+modrinth-axinventoryrestore-3.17.3.jar,METHOD,getName(),org.bukkit.entity.EntityType,12
+modrinth-axtrade-1.28.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,12
+modrinth-axvaults-2.16.1.jar,METHOD,getName(),org.bukkit.entity.EntityType,12
+modrinth-bedwars1058-25.2.jar,METHOD,getData(),org.bukkit.block.Block,6
+modrinth-bedwars1058-25.2.jar,METHOD,getData(),org.bukkit.material.MaterialData,2
+modrinth-bettermessages-3.2.0.jar,METHOD,"scheduleAsyncDelayedTask(org.bukkit.plugin.Plugin, java.lang.Runnable, long)",org.bukkit.scheduler.BukkitScheduler,6
+modrinth-breweryx-3.7.1.jar,METHOD,getData(),org.bukkit.block.Block,1
+modrinth-claim-rentals-1.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-clickmobs-paper-1.3.1.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-conditionalevents-4.80.3.jar,METHOD,getData(),org.bukkit.block.Block,2
+modrinth-conditionalevents-4.80.3.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,1
+modrinth-coreprotect-24.1.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,1
+modrinth-craftorithm-1.16.4.1.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,4
+modrinth-cratereloaded-2.3.9.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-cratereloaded-2.3.9.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-cratereloaded-2.3.9.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-crazyenchantments-2.8.1.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-customcrafting-4.19.1.0.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,3
+modrinth-customizable-mace-1.2.0.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,1
+modrinth-decentholograms-2.10.2.jar,METHOD,getDyeData(),org.bukkit.DyeColor,1
+modrinth-decentholograms-2.10.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,3
+modrinth-decentholograms-2.10.2.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-decentholograms-2.10.2.jar,METHOD,getData(),org.bukkit.block.Block,4
+modrinth-decentholograms-2.10.2.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-decentholograms-2.10.2.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-decentholograms-2.10.2.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-decentholograms-2.10.2.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-decentholograms-2.10.2.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-decentholograms-2.10.2.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-decentholograms-2.10.2.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-deluxehub-3.8.6.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-deluxehub-3.8.6.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-deluxehub-3.8.6.jar,METHOD,getData(),org.bukkit.block.Block,1
+modrinth-deluxehub-3.8.6.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-discordsrv-1.30.5.jar,TYPE,org.bukkit.event.player.PlayerChatEvent,null,1
+modrinth-duels-optimised-8.3.jar,METHOD,getData(),org.bukkit.material.MaterialData,2
+modrinth-duels-optimised-8.3.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,2
+modrinth-duels-optimised-8.3.jar,METHOD,fromId(int),org.bukkit.entity.EntityType,2
+modrinth-duels-optimised-8.3.jar,METHOD,"playEffect(org.bukkit.Location, org.bukkit.Effect, int)",org.bukkit.entity.Player,1
+modrinth-duels-optimised-8.3.jar,METHOD,getData(),org.bukkit.block.Block,1
+modrinth-dynmap-3.5-spigot.jar,METHOD,getData(),org.bukkit.block.Block,2
+modrinth-essentialsc-4.3.5.jar,METHOD,getData(),org.bukkit.block.Block,8
+modrinth-essentialsc-4.3.5.jar,METHOD,"sendBlockChange(org.bukkit.Location, org.bukkit.Material, byte)",org.bukkit.entity.Player,16
+modrinth-essentialsx-2.22.0.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,1
+modrinth-essentialsx-2.22.0.jar,METHOD,getData(),org.bukkit.material.MaterialData,2
+modrinth-essentialsx-2.22.0.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,1
+modrinth-essentialsx-2.22.0.jar,METHOD,fromId(int),org.bukkit.entity.EntityType,2
+modrinth-essentialsx-2.22.0.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-essentialsx-2.22.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-evenmorefish-2.5.3.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,2
+modrinth-evenmorefish-2.5.3.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-ezcolors-2.2.6.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-ezcolors-2.2.6.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-ezcolors-2.2.6.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-ezcolors-2.2.6.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-ezcolors-2.2.6.jar,METHOD,getData(),org.bukkit.material.MaterialData,2
+modrinth-ezcolors-2.2.6.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-ezcolors-2.2.6.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-ezcolors-2.2.6.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,2
+modrinth-fastasyncworldedit-2.16.2.jar,METHOD,"scheduleAsyncRepeatingTask(org.bukkit.plugin.Plugin, java.lang.Runnable, long, long)",org.bukkit.scheduler.BukkitScheduler,1
+modrinth-fastasyncworldedit-2.16.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-feathermorph-2.8.1.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,2
+modrinth-feathermorph-2.8.1.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-flappyac-1.7.8.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,2
+modrinth-forcepack-1.3.74.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-furniturelib-3.3.3.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,3
+modrinth-furniturelib-3.3.3.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,2
+modrinth-furniturelib-3.3.3.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,4
+modrinth-gravesx-2026.4.9.2.jar,METHOD,getType(),org.bukkit.Instrument,2
+modrinth-griefprevention-16.18.8.jar,METHOD,getData(),org.bukkit.block.Block,1
+modrinth-griefprevention-16.18.8.jar,METHOD,"sendBlockChange(org.bukkit.Location, org.bukkit.Material, byte)",org.bukkit.entity.Player,1
+modrinth-grimac-2.3.74.jar,METHOD,getData(),org.bukkit.block.Block,2
+modrinth-grimac-2.3.74.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-grimac-2.3.74.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,2
+modrinth-grimac-2.3.74.jar,METHOD,fromId(int),org.bukkit.entity.EntityType,1
+modrinth-grimac-2.3.74.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-grimac-2.3.74.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-gunshell-1.7.3.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,2
+modrinth-gunshell-1.7.3.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-gunshell-1.7.3.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-gunshell-1.7.3.jar,METHOD,getData(),org.bukkit.block.Block,3
+modrinth-gunshell-1.7.3.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-gunshell-1.7.3.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-gunshell-1.7.3.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-gunshell-1.7.3.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-gunshell-1.7.3.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-gunshell-1.7.3.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-holomobhealth-packetevents-1.1.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-huskhomesgui-2.3.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,2
+modrinth-huskhomesgui-2.3.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-imageframe-2026.1.5.jar,METHOD,imageToBytes(java.awt.Image),org.bukkit.map.MapPalette,1
+modrinth-imageframe-2026.1.5.jar,METHOD,"matchColor(int, int, int)",org.bukkit.map.MapPalette,2
+modrinth-imageframe-2026.1.5.jar,METHOD,getColor(byte),org.bukkit.map.MapPalette,1
+modrinth-interactionvisualizer-2026.1.4.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,8
+modrinth-interactivechat-2026.1.3.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-interactivechat-2026.1.3.jar,METHOD,getData(),org.bukkit.block.Block,4
+modrinth-interactivechat-2026.1.3.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-interactivechat-2026.1.3.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-interactivechat-2026.1.3.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-interactivechat-2026.1.3.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-interactivechat-2026.1.3.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-interactivechat-2026.1.3.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-interactivechat-2026.1.3.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-interactivechat-2026.1.3.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-interactivechat-discordsrv-addon-2026.1.3.jar,METHOD,getByDyeData(byte),org.bukkit.DyeColor,1
+modrinth-interactivechat-discordsrv-addon-2026.1.3.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-interactivechat-discordsrv-addon-2026.1.3.jar,METHOD,getColor(byte),org.bukkit.map.MapPalette,1
+modrinth-interactivechat-discordsrv-addon-2026.1.3.jar,METHOD,imageToBytes(java.awt.Image),org.bukkit.map.MapPalette,1
+modrinth-interactivechat-discordsrv-addon-2026.1.3.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,8
+modrinth-interactivechat-discordsrv-addon-2026.1.3.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,3
+modrinth-interactivechat-discordsrv-addon-2026.1.3.jar,METHOD,getName(),org.bukkit.entity.EntityType,14
+modrinth-invsee-plus-plus-0.31.22.jar,CONSTRUCTOR,"ItemStack(org.bukkit.Material, int, short, java.lang.Byte)",org.bukkit.inventory.ItemStack,1
+modrinth-knockbacksync-1.3.6-dev-b106.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-knockbacksync-1.3.6-dev-b106.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-knockbacksync-1.3.6-dev-b106.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,2
+modrinth-knockbacksync-1.3.6-dev-b106.jar,METHOD,fromId(int),org.bukkit.entity.EntityType,1
+modrinth-knockbacksync-1.3.6-dev-b106.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-lagfixer-1.7.2.jar,METHOD,matchColor(java.awt.Color),org.bukkit.map.MapPalette,1
+modrinth-lightanticheat-1.2.6.jar,METHOD,getData(),org.bukkit.block.Block,5
+modrinth-lightanticheat-1.2.6.jar,METHOD,"sendBlockChange(org.bukkit.Location, org.bukkit.Material, byte)",org.bukkit.entity.Player,5
+modrinth-lightning-grim-anticheat-2.3.72-326e200-b89.jar,METHOD,getData(),org.bukkit.block.Block,2
+modrinth-lightning-grim-anticheat-2.3.72-326e200-b89.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-lightning-grim-anticheat-2.3.72-326e200-b89.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-lightning-grim-anticheat-2.3.72-326e200-b89.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,2
+modrinth-lightning-grim-anticheat-2.3.72-326e200-b89.jar,METHOD,fromId(int),org.bukkit.entity.EntityType,1
+modrinth-lightning-grim-anticheat-2.3.72-326e200-b89.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-login-to-4.1.1.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,4
+modrinth-milkypixelart-2.9.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-multiverse-core-5.8.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-musicplayercc-1.0.1.jar,METHOD,getNewData(byte),org.bukkit.Material,2
+modrinth-musicplayercc-1.0.1.jar,METHOD,fromId(int),org.bukkit.entity.EntityType,2
+modrinth-musicplayercc-1.0.1.jar,METHOD,getData(),org.bukkit.material.MaterialData,6
+modrinth-musicplayercc-1.0.1.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-musicplayercc-1.0.1.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,1
+modrinth-musicplayercc-1.0.1.jar,METHOD,getData(),org.bukkit.block.Block,6
+modrinth-musicplayercc-1.0.1.jar,METHOD,"sendBlockChange(org.bukkit.Location, org.bukkit.Material, byte)",org.bukkit.entity.Player,2
+modrinth-musicplayercc-1.0.1.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-musicplayercc-1.0.1.jar,METHOD,"scheduleAsyncDelayedTask(org.bukkit.plugin.Plugin, java.lang.Runnable, long)",org.bukkit.scheduler.BukkitScheduler,1
+modrinth-musicplayercc-1.0.1.jar,METHOD,"scheduleAsyncRepeatingTask(org.bukkit.plugin.Plugin, java.lang.Runnable, long, long)",org.bukkit.scheduler.BukkitScheduler,1
+modrinth-musicplayercc-1.0.1.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,2
+modrinth-musicplayercc-1.0.1.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,2
+modrinth-mythicmobs-5.14.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,3
+modrinth-mythicmobs-5.14.0.jar,METHOD,getData(),org.bukkit.block.Block,3
+modrinth-mythicmobs-5.14.0.jar,CONSTRUCTOR,"Lever(org.bukkit.Material, byte)",org.bukkit.material.Lever,1
+modrinth-mythicmobs-5.14.0.jar,METHOD,"scheduleAsyncRepeatingTask(org.bukkit.plugin.Plugin, java.lang.Runnable, long, long)",org.bukkit.scheduler.BukkitScheduler,2
+modrinth-mythicmobs-5.14.0.jar,METHOD,"sendBlockChange(org.bukkit.Location, org.bukkit.Material, byte)",org.bukkit.entity.Player,3
+modrinth-mythicmobs-5.14.0.jar,METHOD,matchColor(java.awt.Color),org.bukkit.map.MapPalette,1
+modrinth-nexuscore-2.2.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-oneblock_bukkit-1.6.4.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-oneblock_bukkit-1.6.4.jar,METHOD,getData(),org.bukkit.block.Block,3
+modrinth-oneblock_bukkit-1.6.4.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-oneblock_bukkit-1.6.4.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-oneblock_bukkit-1.6.4.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-oneblock_bukkit-1.6.4.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-openminetopia-1.5.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-packetevents-2.14.0+spigot.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-packetevents-2.14.0+spigot.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,2
+modrinth-packetevents-2.14.0+spigot.jar,METHOD,fromId(int),org.bukkit.entity.EntityType,1
+modrinth-packetevents-2.14.0+spigot.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-packetevents-2.14.0+spigot.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-phatloots-5.6.7.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-phoenix-crates-lite-6.8.0.jar,CONSTRUCTOR,"ItemStack(org.bukkit.Material, int, short, java.lang.Byte)",org.bukkit.inventory.ItemStack,15
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,3
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,getData(),org.bukkit.block.Block,4
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,3
+modrinth-phoenix-crates-lite-6.8.0.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-phoenix-crates-lite-6.8.0.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-powergems-3.6.4.3.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,1
+modrinth-qualityarmory-2.2.0.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,3
+modrinth-qualityarmory-2.2.0.jar,METHOD,"playEffect(org.bukkit.Location, org.bukkit.Effect, int)",org.bukkit.entity.Player,1
+modrinth-qualityarmory-2.2.0.jar,METHOD,getData(),org.bukkit.block.Block,8
+modrinth-qualityarmory-2.2.0.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-qualityarmory-2.2.0.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,2
+modrinth-qualityarmory-2.2.0.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-qualityarmory-2.2.0.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-qualityarmory-2.2.0.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-qualityarmory-2.2.0.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-qualityarmory-2.2.0.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-qualityarmory-2.2.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-qualityarmory-2.2.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-quests.classic-5.3.2.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-quests.classic-5.3.2.jar,METHOD,getNewData(byte),org.bukkit.Material,2
+modrinth-quests.classic-5.3.2.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,1
+modrinth-quests.classic-5.3.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-realisticsurvival-1.2.9-RELEASE.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,72
+modrinth-signedvelocity-1.5.0.jar,TYPE,org.bukkit.event.player.PlayerChatEvent,null,2
+modrinth-simpleclans-v2.19.2.jar,METHOD,"sendBlockChange(org.bukkit.Location, org.bukkit.Material, byte)",org.bukkit.entity.Player,4
+modrinth-simpleclans-v2.19.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,3
+modrinth-simpleclans-v2.19.2.jar,METHOD,getDyeData(),org.bukkit.DyeColor,1
+modrinth-simpleclans-v2.19.2.jar,METHOD,getData(),org.bukkit.TreeSpecies,1
+modrinth-simpleclans-v2.19.2.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,2
+modrinth-simpleclans-v2.19.2.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-simpleclans-v2.19.2.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-skinsrestorer-15.12.6.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-skinsrestorer-15.12.6.jar,METHOD,getData(),org.bukkit.block.Block,4
+modrinth-skinsrestorer-15.12.6.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-skinsrestorer-15.12.6.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-skinsrestorer-15.12.6.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-skinsrestorer-15.12.6.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-skinsrestorer-15.12.6.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-skinsrestorer-15.12.6.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-skinsrestorer-15.12.6.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-skinsrestorer-15.12.6.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-skript-2.17.1.jar,METHOD,getRawData(),org.bukkit.block.BlockState,1
+modrinth-skript-2.17.1.jar,METHOD,getData(),org.bukkit.block.Block,1
+modrinth-skript-2.17.1.jar,METHOD,getDyeData(),org.bukkit.DyeColor,1
+modrinth-starcosmetics-1.4.0.jar,METHOD,getRawData(),org.bukkit.block.BlockState,5
+modrinth-starcosmetics-1.4.0.jar,METHOD,"sendBlockChange(org.bukkit.Location, org.bukkit.Material, byte)",org.bukkit.entity.Player,5
+modrinth-terraformgenerator-28.1.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-themis-anti-cheat-0.17.7.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-uberenchant-8.12.13.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,1
+modrinth-ultimate-teams-5.1.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,2
+modrinth-ultimate-teams-5.1.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-ultimate-teams-5.1.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-ultracosmetics-3.16-RELEASE.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-ultracosmetics-3.16-RELEASE.jar,METHOD,getData(),org.bukkit.block.Block,4
+modrinth-ultracosmetics-3.16-RELEASE.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-ultracosmetics-3.16-RELEASE.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-ultracosmetics-3.16-RELEASE.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-ultracosmetics-3.16-RELEASE.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-ultracosmetics-3.16-RELEASE.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-ultracosmetics-3.16-RELEASE.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-ultracosmetics-3.16-RELEASE.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-ultracosmetics-3.16-RELEASE.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-viaversion-5.12.2.jar,CONSTRUCTOR,"ItemStack(org.bukkit.Material, int, short, java.lang.Byte)",org.bukkit.inventory.ItemStack,1
+modrinth-viaversion-5.12.2.jar,METHOD,getData(),org.bukkit.block.Block,2
+modrinth-villageroptimizer-1.6.2.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-villageroptimizer-1.6.2.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-villageroptimizer-1.6.2.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-villageroptimizer-1.6.2.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-villageroptimizer-1.6.2.jar,METHOD,getData(),org.bukkit.material.MaterialData,2
+modrinth-villageroptimizer-1.6.2.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-villageroptimizer-1.6.2.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-villageroptimizer-1.6.2.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,2
+modrinth-votepass-mailer-1.0.1.jar,METHOD,getDyeData(),org.bukkit.DyeColor,1
+modrinth-votepass-mailer-1.0.1.jar,METHOD,getData(),org.bukkit.TreeSpecies,4
+modrinth-votepass-mailer-1.0.1.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-votepass-mailer-1.0.1.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,7
+modrinth-votepass-mailer-1.0.1.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-votepass-mailer-1.0.1.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-votepass-mailer-1.0.1.jar,METHOD,getName(),org.bukkit.entity.EntityType,2
+modrinth-votepass-mailer-1.0.1.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,2
+modrinth-wolfyutils-4.19.1.2.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,4
+modrinth-zerohomes-1.0.0.jar,METHOD,getNewData(byte),org.bukkit.Material,1
+modrinth-zerohomes-1.0.0.jar,METHOD,getData(),org.bukkit.block.Block,4
+modrinth-zerohomes-1.0.0.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-zerohomes-1.0.0.jar,METHOD,getData(),org.bukkit.TreeSpecies,3
+modrinth-zerohomes-1.0.0.jar,METHOD,getRawData(),org.bukkit.block.BlockState,2
+modrinth-zerohomes-1.0.0.jar,METHOD,setRawData(byte),org.bukkit.block.BlockState,8
+modrinth-zerohomes-1.0.0.jar,METHOD,getData(),org.bukkit.material.MaterialData,3
+modrinth-zerohomes-1.0.0.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,2
+modrinth-zerohomes-1.0.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-zerohomes-1.0.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1
+modrinth-zhead-1.6.jar,METHOD,getData(),org.bukkit.material.MaterialData,4
+modrinth-zhead-1.6.jar,CONSTRUCTOR,"MaterialData(org.bukkit.Material, byte)",org.bukkit.material.MaterialData,1
+modrinth-zmenu-1.1.2.1.jar,METHOD,setCursor(org.bukkit.inventory.ItemStack),org.bukkit.event.inventory.InventoryClickEvent,1
+modrinth-zmenu-1.1.2.1.jar,METHOD,getData(),org.bukkit.material.MaterialData,2
+modrinth-znpcsplus-2.0.0.jar,METHOD,setData(byte),org.bukkit.material.MaterialData,1
+modrinth-znpcsplus-2.0.0.jar,METHOD,getDyeData(),org.bukkit.DyeColor,1
+modrinth-znpcsplus-2.0.0.jar,METHOD,getData(),org.bukkit.material.MaterialData,1
+modrinth-znpcsplus-2.0.0.jar,METHOD,getName(),org.bukkit.entity.EntityType,1
+modrinth-znpcsplus-2.0.0.jar,METHOD,getTypeId(),org.bukkit.entity.EntityType,2
+modrinth-znpcsplus-2.0.0.jar,METHOD,fromId(int),org.bukkit.entity.EntityType,1
+modrinth-znpcsplus-2.0.0.jar,METHOD,getId(),org.bukkit.potion.PotionEffectType,1

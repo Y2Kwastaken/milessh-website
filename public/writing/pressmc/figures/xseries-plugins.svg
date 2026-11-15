@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1065" height="874" viewBox="0 0 1065 874" role="img" aria-label="The 28 sampled plugins that bundle XSeries" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>The 28 sampled plugins that bundle XSeries</title>
+<style>
+  .surface { fill: #fcfcfb; }
+  .title { fill: #0b0b0b; font-size: 15px; font-weight: 600; }
+  .subtitle, .legend, .label { fill: #52514e; font-size: 12px; }
+  .tick { fill: #898781; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .value { fill: #0b0b0b; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ink-on-fill-light { fill: #ffffff; font-size: 11px; }
+  .ink-on-fill-dark { fill: #0b0b0b; font-size: 11px; }
+  .only { fill: #eb6834; }
+  .also { fill: #6250d6; }
+  .none { fill: #898781; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .title { fill: #f0efec; }
+    .subtitle, .legend, .label { fill: #c3c2b7; }
+    .value { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .only { fill: #d95926; }
+    .also { fill: #9085e9; }
+    .none { fill: #898781; }
+  }
+</style>
+<rect class="surface" width="1065" height="874" rx="8"/>
+<style>.ring { stroke: #fcfcfb; stroke-width: 2; } .colhead { fill: #898781; font-size: 11px; }@media (prefers-color-scheme: dark) { .ring { stroke: #1a1a19; } }</style>
+<text x="24.0" y="30.0" class="title" text-anchor="start" dominant-baseline="middle">The 28 sampled plugins that bundle XSeries</text>
+<text x="24.0" y="50.0" class="subtitle" text-anchor="start" dominant-baseline="middle">28 of 958 plugins in the sample; downloads as reported by each source (Modrinth and Hangar counts aren&#x27;t directly comparable)</text>
+<circle cx="29" cy="74" r="5" class="only"/>
+<text x="40.0" y="74.0" class="legend" text-anchor="start" dominant-baseline="middle">Reaches the deprecated API only through XSeries</text>
+<circle cx="29" cy="92" r="5" class="also"/>
+<text x="40.0" y="92.0" class="legend" text-anchor="start" dominant-baseline="middle">Through XSeries and other code (its own or another library)</text>
+<circle cx="29" cy="110" r="5" class="none"/>
+<text x="40.0" y="110.0" class="legend" text-anchor="start" dominant-baseline="middle">Bundles XSeries, but its copy references none of the entries</text>
+<text x="24.0" y="144.0" class="colhead" text-anchor="start" dominant-baseline="middle">Plugin</text>
+<text x="183.4" y="144.0" class="colhead" text-anchor="start" dominant-baseline="middle">Downloads (log scale)</text>
+<text x="665.4" y="144.0" class="colhead" text-anchor="end" dominant-baseline="middle">Downloads</text>
+<text x="679.4" y="144.0" class="colhead" text-anchor="start" dominant-baseline="middle">Source</text>
+<text x="767.4" y="144.0" class="colhead" text-anchor="start" dominant-baseline="middle">Bucket</text>
+<text x="893.4" y="144.0" class="colhead" text-anchor="start" dominant-baseline="middle">XSeries</text>
+<text x="1041.4" y="144.0" class="colhead" text-anchor="end" dominant-baseline="middle">Entries*</text>
+<line x1="183.4" y1="156.0" x2="183.4" y2="828.0" class="grid"/>
+<text x="183.4" y="842.0" class="tick" text-anchor="middle" dominant-baseline="middle">1</text>
+<line x1="237.7" y1="156.0" x2="237.7" y2="828.0" class="grid"/>
+<text x="237.7" y="842.0" class="tick" text-anchor="middle" dominant-baseline="middle">10</text>
+<line x1="292.0" y1="156.0" x2="292.0" y2="828.0" class="grid"/>
+<text x="292.0" y="842.0" class="tick" text-anchor="middle" dominant-baseline="middle">100</text>
+<line x1="346.3" y1="156.0" x2="346.3" y2="828.0" class="grid"/>
+<text x="346.3" y="842.0" class="tick" text-anchor="middle" dominant-baseline="middle">1k</text>
+<line x1="400.5" y1="156.0" x2="400.5" y2="828.0" class="grid"/>
+<text x="400.5" y="842.0" class="tick" text-anchor="middle" dominant-baseline="middle">10k</text>
+<line x1="454.8" y1="156.0" x2="454.8" y2="828.0" class="grid"/>
+<text x="454.8" y="842.0" class="tick" text-anchor="middle" dominant-baseline="middle">100k</text>
+<line x1="509.1" y1="156.0" x2="509.1" y2="828.0" class="grid"/>
+<text x="509.1" y="842.0" class="tick" text-anchor="middle" dominant-baseline="middle">1M</text>
+<line x1="563.4" y1="156.0" x2="563.4" y2="828.0" class="grid"/>
+<text x="563.4" y="842.0" class="tick" text-anchor="middle" dominant-baseline="middle">10M</text>
+<text x="24.0" y="168.0" class="label" text-anchor="start" dominant-baseline="middle">SkinsRestorer</text>
+<line x1="183.4" y1="168.0" x2="523.1" y2="168.0" class="grid"/>
+<circle cx="523.1" cy="168.0" r="5" class="only ring"><title>SkinsRestorer: 1,810,026 downloads on Modrinth; its only deprecated references are in XSeries (10 entries)</title></circle>
+<text x="665.4" y="168.0" class="value" text-anchor="end" dominant-baseline="middle">1,810,026</text>
+<text x="679.4" y="168.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="168.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="168.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="168.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="192.0" class="label" text-anchor="start" dominant-baseline="middle">DecentHolograms</text>
+<line x1="183.4" y1="192.0" x2="481.4" y2="192.0" class="grid"/>
+<circle cx="481.4" cy="192.0" r="5" class="also ring"><title>DecentHolograms: 308,348 downloads on Modrinth; XSeries references 10 entries, and other code references some too</title></circle>
+<text x="665.4" y="192.0" class="value" text-anchor="end" dominant-baseline="middle">308,348</text>
+<text x="679.4" y="192.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="192.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="192.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="192.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="216.0" class="label" text-anchor="start" dominant-baseline="middle">OneBlock</text>
+<line x1="183.4" y1="216.0" x2="476.8" y2="216.0" class="grid"/>
+<circle cx="476.8" cy="216.0" r="5" class="only ring"><title>OneBlock: 253,549 downloads on Modrinth; its only deprecated references are in XSeries (6 entries)</title></circle>
+<text x="665.4" y="216.0" class="value" text-anchor="end" dominant-baseline="middle">253,549</text>
+<text x="679.4" y="216.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="216.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="216.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="216.0" class="value" text-anchor="end" dominant-baseline="middle">6</text>
+<text x="24.0" y="240.0" class="label" text-anchor="start" dominant-baseline="middle">DeluxeHub</text>
+<line x1="183.4" y1="240.0" x2="461.7" y2="240.0" class="grid"/>
+<circle cx="461.7" cy="240.0" r="5" class="only ring"><title>DeluxeHub: 134,017 downloads on Modrinth; its only deprecated references are in XSeries (4 entries)</title></circle>
+<text x="665.4" y="240.0" class="value" text-anchor="end" dominant-baseline="middle">134,017</text>
+<text x="679.4" y="240.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="240.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="240.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="240.0" class="value" text-anchor="end" dominant-baseline="middle">4</text>
+<text x="24.0" y="264.0" class="label" text-anchor="start" dominant-baseline="middle">SCore</text>
+<line x1="183.4" y1="264.0" x2="459.4" y2="264.0" class="grid"/>
+<circle cx="459.4" cy="264.0" r="5" class="none ring"><title>SCore: 121,539 downloads on Modrinth; its XSeries copy references none of the entries</title></circle>
+<text x="665.4" y="264.0" class="value" text-anchor="end" dominant-baseline="middle">121,539</text>
+<text x="679.4" y="264.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="264.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="264.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="264.0" class="tick" text-anchor="end" dominant-baseline="middle">–</text>
+<text x="24.0" y="288.0" class="label" text-anchor="start" dominant-baseline="middle">AutoTreeChop</text>
+<line x1="183.4" y1="288.0" x2="459.4" y2="288.0" class="grid"/>
+<circle cx="459.4" cy="288.0" r="5" class="only ring"><title>AutoTreeChop: 121,506 downloads on Modrinth; its only deprecated references are in XSeries (4 entries)</title></circle>
+<text x="665.4" y="288.0" class="value" text-anchor="end" dominant-baseline="middle">121,506</text>
+<text x="679.4" y="288.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="288.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="288.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="288.0" class="value" text-anchor="end" dominant-baseline="middle">4</text>
+<text x="24.0" y="312.0" class="label" text-anchor="start" dominant-baseline="middle">InteractiveChat</text>
+<line x1="183.4" y1="312.0" x2="455.3" y2="312.0" class="grid"/>
+<circle cx="455.3" cy="312.0" r="5" class="only ring"><title>InteractiveChat: 101,966 downloads on Modrinth; its only deprecated references are in XSeries (10 entries)</title></circle>
+<text x="665.4" y="312.0" class="value" text-anchor="end" dominant-baseline="middle">101,966</text>
+<text x="679.4" y="312.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="312.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="312.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="312.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="336.0" class="label" text-anchor="start" dominant-baseline="middle">Gunshell</text>
+<line x1="183.4" y1="336.0" x2="450.9" y2="336.0" class="grid"/>
+<circle cx="450.9" cy="336.0" r="5" class="also ring"><title>Gunshell: 84,662 downloads on Modrinth; XSeries references 9 entries, and other code references some too</title></circle>
+<text x="665.4" y="336.0" class="value" text-anchor="end" dominant-baseline="middle">84,662</text>
+<text x="679.4" y="336.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="336.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="336.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="336.0" class="value" text-anchor="end" dominant-baseline="middle">9</text>
+<text x="24.0" y="360.0" class="label" text-anchor="start" dominant-baseline="middle">SimpleClans</text>
+<line x1="183.4" y1="360.0" x2="447.5" y2="360.0" class="grid"/>
+<circle cx="447.5" cy="360.0" r="5" class="also ring"><title>SimpleClans: 73,141 downloads on Modrinth; XSeries references 6 entries, and other code references some too</title></circle>
+<text x="665.4" y="360.0" class="value" text-anchor="end" dominant-baseline="middle">73,141</text>
+<text x="679.4" y="360.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="360.0" class="value" text-anchor="start" dominant-baseline="middle">popular, legacy</text>
+<text x="893.4" y="360.0" class="value" text-anchor="start" dominant-baseline="middle">8.3.0</text>
+<text x="1041.4" y="360.0" class="value" text-anchor="end" dominant-baseline="middle">6</text>
+<text x="24.0" y="384.0" class="label" text-anchor="start" dominant-baseline="middle">QualityArmory</text>
+<line x1="183.4" y1="384.0" x2="445.2" y2="384.0" class="grid"/>
+<circle cx="445.2" cy="384.0" r="5" class="also ring"><title>QualityArmory: 66,364 downloads on Modrinth; XSeries references 10 entries, and other code references some too</title></circle>
+<text x="665.4" y="384.0" class="value" text-anchor="end" dominant-baseline="middle">66,364</text>
+<text x="679.4" y="384.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="384.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="384.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="384.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="408.0" class="label" text-anchor="start" dominant-baseline="middle">Phoenix Crates [Free]</text>
+<line x1="183.4" y1="408.0" x2="443.3" y2="408.0" class="grid"/>
+<circle cx="443.3" cy="408.0" r="5" class="also ring"><title>Phoenix Crates [Free]: 61,212 downloads on Modrinth; XSeries references 10 entries, and other code references some too</title></circle>
+<text x="665.4" y="408.0" class="value" text-anchor="end" dominant-baseline="middle">61,212</text>
+<text x="679.4" y="408.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="408.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="408.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="408.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="432.0" class="label" text-anchor="start" dominant-baseline="middle">zMenu</text>
+<line x1="183.4" y1="432.0" x2="436.6" y2="432.0" class="grid"/>
+<circle cx="436.6" cy="432.0" r="5" class="none ring"><title>zMenu: 46,080 downloads on Modrinth; its XSeries copy references none of the entries</title></circle>
+<text x="665.4" y="432.0" class="value" text-anchor="end" dominant-baseline="middle">46,080</text>
+<text x="679.4" y="432.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="432.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="432.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="432.0" class="tick" text-anchor="end" dominant-baseline="middle">–</text>
+<text x="24.0" y="456.0" class="label" text-anchor="start" dominant-baseline="middle">UltraCosmetics</text>
+<line x1="183.4" y1="456.0" x2="427.8" y2="456.0" class="grid"/>
+<circle cx="427.8" cy="456.0" r="5" class="only ring"><title>UltraCosmetics: 31,721 downloads on Modrinth; its only deprecated references are in XSeries (10 entries)</title></circle>
+<text x="665.4" y="456.0" class="value" text-anchor="end" dominant-baseline="middle">31,721</text>
+<text x="679.4" y="456.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="456.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="456.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="456.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="480.0" class="label" text-anchor="start" dominant-baseline="middle">VillagerOptimizer</text>
+<line x1="183.4" y1="480.0" x2="422.5" y2="480.0" class="grid"/>
+<circle cx="422.5" cy="480.0" r="5" class="only ring"><title>VillagerOptimizer: 25,432 downloads on Modrinth; its only deprecated references are in XSeries (8 entries)</title></circle>
+<text x="665.4" y="480.0" class="value" text-anchor="end" dominant-baseline="middle">25,432</text>
+<text x="679.4" y="480.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="480.0" class="value" text-anchor="start" dominant-baseline="middle">legacy</text>
+<text x="893.4" y="480.0" class="value" text-anchor="start" dominant-baseline="middle">11.2.0.1</text>
+<text x="1041.4" y="480.0" class="value" text-anchor="end" dominant-baseline="middle">8</text>
+<text x="24.0" y="504.0" class="label" text-anchor="start" dominant-baseline="middle">VelocityReport</text>
+<line x1="183.4" y1="504.0" x2="387.9" y2="504.0" class="grid"/>
+<circle cx="387.9" cy="504.0" r="5" class="none ring"><title>VelocityReport: 5,839 downloads on Modrinth; its XSeries copy references none of the entries</title></circle>
+<text x="665.4" y="504.0" class="value" text-anchor="end" dominant-baseline="middle">5,839</text>
+<text x="679.4" y="504.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="504.0" class="value" text-anchor="start" dominant-baseline="middle">legacy</text>
+<text x="893.4" y="504.0" class="value" text-anchor="start" dominant-baseline="middle">11.2.0</text>
+<text x="1041.4" y="504.0" class="tick" text-anchor="end" dominant-baseline="middle">–</text>
+<text x="24.0" y="528.0" class="label" text-anchor="start" dominant-baseline="middle">BlueSlimeCore</text>
+<line x1="183.4" y1="528.0" x2="377.7" y2="528.0" class="grid"/>
+<circle cx="377.7" cy="528.0" r="5" class="only ring"><title>BlueSlimeCore: 3,794 downloads on Hangar; its only deprecated references are in XSeries (10 entries)</title></circle>
+<text x="665.4" y="528.0" class="value" text-anchor="end" dominant-baseline="middle">3,794</text>
+<text x="679.4" y="528.0" class="value" text-anchor="start" dominant-baseline="middle">Hangar</text>
+<text x="767.4" y="528.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="528.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="528.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="552.0" class="label" text-anchor="start" dominant-baseline="middle">EZColors</text>
+<line x1="183.4" y1="552.0" x2="376.8" y2="552.0" class="grid"/>
+<circle cx="376.8" cy="552.0" r="5" class="only ring"><title>EZColors: 3,650 downloads on Modrinth; its only deprecated references are in XSeries (8 entries)</title></circle>
+<text x="665.4" y="552.0" class="value" text-anchor="end" dominant-baseline="middle">3,650</text>
+<text x="679.4" y="552.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="552.0" class="value" text-anchor="start" dominant-baseline="middle">legacy</text>
+<text x="893.4" y="552.0" class="value" text-anchor="start" dominant-baseline="middle">11.3.0</text>
+<text x="1041.4" y="552.0" class="value" text-anchor="end" dominant-baseline="middle">8</text>
+<text x="24.0" y="576.0" class="label" text-anchor="start" dominant-baseline="middle">MelodyMine</text>
+<line x1="183.4" y1="576.0" x2="375.1" y2="576.0" class="grid"/>
+<circle cx="375.1" cy="576.0" r="5" class="none ring"><title>MelodyMine: 3,405 downloads on Modrinth; its XSeries copy references none of the entries</title></circle>
+<text x="665.4" y="576.0" class="value" text-anchor="end" dominant-baseline="middle">3,405</text>
+<text x="679.4" y="576.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="576.0" class="value" text-anchor="start" dominant-baseline="middle">legacy</text>
+<text x="893.4" y="576.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="576.0" class="tick" text-anchor="end" dominant-baseline="middle">–</text>
+<text x="24.0" y="600.0" class="label" text-anchor="start" dominant-baseline="middle">VotePass-Mailer</text>
+<line x1="183.4" y1="600.0" x2="374.6" y2="600.0" class="grid"/>
+<circle cx="374.6" cy="600.0" r="5" class="only ring"><title>VotePass-Mailer: 3,331 downloads on Modrinth; its only deprecated references are in XSeries (8 entries)</title></circle>
+<text x="665.4" y="600.0" class="value" text-anchor="end" dominant-baseline="middle">3,331</text>
+<text x="679.4" y="600.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="600.0" class="value" text-anchor="start" dominant-baseline="middle">legacy</text>
+<text x="893.4" y="600.0" class="value" text-anchor="start" dominant-baseline="middle">9.8.1</text>
+<text x="1041.4" y="600.0" class="value" text-anchor="end" dominant-baseline="middle">8</text>
+<text x="24.0" y="624.0" class="label" text-anchor="start" dominant-baseline="middle">BetterChairs</text>
+<line x1="183.4" y1="624.0" x2="373.7" y2="624.0" class="grid"/>
+<circle cx="373.7" cy="624.0" r="5" class="only ring"><title>BetterChairs: 3,199 downloads on Hangar; its only deprecated references are in XSeries (4 entries)</title></circle>
+<text x="665.4" y="624.0" class="value" text-anchor="end" dominant-baseline="middle">3,199</text>
+<text x="679.4" y="624.0" class="value" text-anchor="start" dominant-baseline="middle">Hangar</text>
+<text x="767.4" y="624.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="624.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="624.0" class="value" text-anchor="end" dominant-baseline="middle">4</text>
+<text x="24.0" y="648.0" class="label" text-anchor="start" dominant-baseline="middle">OldCombatMechanics</text>
+<line x1="183.4" y1="648.0" x2="371.9" y2="648.0" class="grid"/>
+<circle cx="371.9" cy="648.0" r="5" class="also ring"><title>OldCombatMechanics: 2,967 downloads on Hangar; XSeries references 10 entries, and other code references some too</title></circle>
+<text x="665.4" y="648.0" class="value" text-anchor="end" dominant-baseline="middle">2,967</text>
+<text x="679.4" y="648.0" class="value" text-anchor="start" dominant-baseline="middle">Hangar</text>
+<text x="767.4" y="648.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="648.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="648.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="672.0" class="label" text-anchor="start" dominant-baseline="middle">TrollV4</text>
+<line x1="183.4" y1="672.0" x2="360.4" y2="672.0" class="grid"/>
+<circle cx="360.4" cy="672.0" r="5" class="also ring"><title>TrollV4: 1,822 downloads on Hangar; XSeries references 9 entries, and other code references some too</title></circle>
+<text x="665.4" y="672.0" class="value" text-anchor="end" dominant-baseline="middle">1,822</text>
+<text x="679.4" y="672.0" class="value" text-anchor="start" dominant-baseline="middle">Hangar</text>
+<text x="767.4" y="672.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="672.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="672.0" class="value" text-anchor="end" dominant-baseline="middle">9</text>
+<text x="24.0" y="696.0" class="label" text-anchor="start" dominant-baseline="middle">akropolis</text>
+<line x1="183.4" y1="696.0" x2="358.4" y2="696.0" class="grid"/>
+<circle cx="358.4" cy="696.0" r="5" class="only ring"><title>akropolis: 1,671 downloads on Hangar; its only deprecated references are in XSeries (10 entries)</title></circle>
+<text x="665.4" y="696.0" class="value" text-anchor="end" dominant-baseline="middle">1,671</text>
+<text x="679.4" y="696.0" class="value" text-anchor="start" dominant-baseline="middle">Hangar</text>
+<text x="767.4" y="696.0" class="value" text-anchor="start" dominant-baseline="middle">popular</text>
+<text x="893.4" y="696.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="696.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="720.0" class="label" text-anchor="start" dominant-baseline="middle">IridiumSkyblock</text>
+<line x1="183.4" y1="720.0" x2="347.2" y2="720.0" class="grid"/>
+<circle cx="347.2" cy="720.0" r="5" class="only ring"><title>IridiumSkyblock: 1,042 downloads on Hangar; its only deprecated references are in XSeries (1 entries)</title></circle>
+<text x="665.4" y="720.0" class="value" text-anchor="end" dominant-baseline="middle">1,042</text>
+<text x="679.4" y="720.0" class="value" text-anchor="start" dominant-baseline="middle">Hangar</text>
+<text x="767.4" y="720.0" class="value" text-anchor="start" dominant-baseline="middle">legacy</text>
+<text x="893.4" y="720.0" class="value" text-anchor="start" dominant-baseline="middle">9.8.1</text>
+<text x="1041.4" y="720.0" class="value" text-anchor="end" dominant-baseline="middle">1</text>
+<text x="24.0" y="744.0" class="label" text-anchor="start" dominant-baseline="middle">AdminGUI</text>
+<line x1="183.4" y1="744.0" x2="345.7" y2="744.0" class="grid"/>
+<circle cx="345.7" cy="744.0" r="5" class="none ring"><title>AdminGUI: 978 downloads on Hangar; its XSeries copy references none of the entries</title></circle>
+<text x="665.4" y="744.0" class="value" text-anchor="end" dominant-baseline="middle">978</text>
+<text x="679.4" y="744.0" class="value" text-anchor="start" dominant-baseline="middle">Hangar</text>
+<text x="767.4" y="744.0" class="value" text-anchor="start" dominant-baseline="middle">legacy</text>
+<text x="893.4" y="744.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="744.0" class="tick" text-anchor="end" dominant-baseline="middle">–</text>
+<text x="24.0" y="768.0" class="label" text-anchor="start" dominant-baseline="middle">NexaCombat</text>
+<line x1="183.4" y1="768.0" x2="239.9" y2="768.0" class="grid"/>
+<circle cx="239.9" cy="768.0" r="5" class="only ring"><title>NexaCombat: 11 downloads on Hangar; its only deprecated references are in XSeries (10 entries)</title></circle>
+<text x="665.4" y="768.0" class="value" text-anchor="end" dominant-baseline="middle">11</text>
+<text x="679.4" y="768.0" class="value" text-anchor="start" dominant-baseline="middle">Hangar</text>
+<text x="767.4" y="768.0" class="value" text-anchor="start" dominant-baseline="middle">random-tail</text>
+<text x="893.4" y="768.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="768.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="792.0" class="label" text-anchor="start" dominant-baseline="middle">ZeroHomes</text>
+<line x1="183.4" y1="792.0" x2="232.4" y2="792.0" class="grid"/>
+<circle cx="232.4" cy="792.0" r="5" class="only ring"><title>ZeroHomes: 8 downloads on Modrinth; its only deprecated references are in XSeries (10 entries)</title></circle>
+<text x="665.4" y="792.0" class="value" text-anchor="end" dominant-baseline="middle">8</text>
+<text x="679.4" y="792.0" class="value" text-anchor="start" dominant-baseline="middle">Modrinth</text>
+<text x="767.4" y="792.0" class="value" text-anchor="start" dominant-baseline="middle">random-tail</text>
+<text x="893.4" y="792.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="792.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="816.0" class="label" text-anchor="start" dominant-baseline="middle">EssenceStealPlugin</text>
+<line x1="183.4" y1="816.0" x2="199.7" y2="816.0" class="grid"/>
+<circle cx="199.7" cy="816.0" r="5" class="only ring"><title>EssenceStealPlugin: 2 downloads on Hangar; its only deprecated references are in XSeries (10 entries)</title></circle>
+<text x="665.4" y="816.0" class="value" text-anchor="end" dominant-baseline="middle">2</text>
+<text x="679.4" y="816.0" class="value" text-anchor="start" dominant-baseline="middle">Hangar</text>
+<text x="767.4" y="816.0" class="value" text-anchor="start" dominant-baseline="middle">random-tail</text>
+<text x="893.4" y="816.0" class="tick" text-anchor="start" dominant-baseline="middle">unknown</text>
+<text x="1041.4" y="816.0" class="value" text-anchor="end" dominant-baseline="middle">10</text>
+<text x="24.0" y="862.0" class="tick" text-anchor="start" dominant-baseline="middle">* Entries: how many of the 136 deprecated entries the plugin&#x27;s XSeries copy references. Version &quot;unknown&quot;: relocation removed XSeries&#x27; Maven metadata.</text>
+</svg>

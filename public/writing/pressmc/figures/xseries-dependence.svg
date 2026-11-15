@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="200" viewBox="0 0 760 200" role="img" aria-label="How the 28 sampled plugins that bundle XSeries depend on it" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>How the 28 sampled plugins that bundle XSeries depend on it</title>
+<style>
+  .surface { fill: #fcfcfb; }
+  .title { fill: #0b0b0b; font-size: 15px; font-weight: 600; }
+  .subtitle, .legend, .label { fill: #52514e; font-size: 12px; }
+  .tick { fill: #898781; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .value { fill: #0b0b0b; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ink-on-fill-light { fill: #ffffff; font-size: 11px; }
+  .ink-on-fill-dark { fill: #0b0b0b; font-size: 11px; }
+  .only { fill: #eb6834; }
+  .also { fill: #6250d6; }
+  .none { fill: #898781; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .title { fill: #f0efec; }
+    .subtitle, .legend, .label { fill: #c3c2b7; }
+    .value { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .only { fill: #d95926; }
+    .also { fill: #9085e9; }
+    .none { fill: #898781; }
+  }
+</style>
+<rect class="surface" width="760" height="200" rx="8"/>
+<text x="24.0" y="30.0" class="title" text-anchor="start" dominant-baseline="middle">How the 28 sampled plugins that bundle XSeries depend on it</text>
+<text x="24.0" y="50.0" class="subtitle" text-anchor="start" dominant-baseline="middle">28 of 958 plugins in the sample (2.9%) bundle XSeries; the same split as the plugin-by-plugin chart</text>
+<rect x="24.0" y="92" width="404.6" height="28" rx="4" class="only"><title>Reaches the deprecated API only through XSeries: 16 of 28 plugins (57%)</title></rect>
+<text x="32.0" y="106.0" class="ink-on-fill-light" style="font-size: 12px; font-weight: 600" dominant-baseline="middle">16 plugins · 57%</text>
+<rect x="430.6" y="92" width="177.0" height="28" rx="4" class="also"><title>Through XSeries and other code (its own or another library): 7 of 28 plugins (25%)</title></rect>
+<text x="438.6" y="106.0" class="ink-on-fill-light" style="font-size: 12px; font-weight: 600" dominant-baseline="middle">7 plugins · 25%</text>
+<rect x="609.6" y="92" width="126.4" height="28" rx="4" class="none"><title>Bundles XSeries, but its copy references none of the entries: 5 of 28 plugins (18%)</title></rect>
+<text x="617.6" y="106.0" class="ink-on-fill-light" style="font-size: 12px; font-weight: 600" dominant-baseline="middle">5 plugins · 18%</text>
+<rect x="24" y="141" width="10" height="10" rx="2" class="only"/>
+<text x="39.0" y="146.0" class="legend" text-anchor="start" dominant-baseline="middle">Reaches the deprecated API only through XSeries</text>
+<rect x="24" y="159" width="10" height="10" rx="2" class="also"/>
+<text x="39.0" y="164.0" class="legend" text-anchor="start" dominant-baseline="middle">Through XSeries and other code (its own or another library)</text>
+<rect x="24" y="177" width="10" height="10" rx="2" class="none"/>
+<text x="39.0" y="182.0" class="legend" text-anchor="start" dominant-baseline="middle">Bundles XSeries, but its copy references none of the entries</text>
+</svg>

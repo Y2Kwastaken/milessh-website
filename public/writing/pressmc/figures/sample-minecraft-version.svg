@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-label="Newest Minecraft version each sampled jar is marked for" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'>
+<title>Newest Minecraft version each sampled jar is marked for</title>
+<style>
+  .surface { fill: #fcfcfb; }
+  .title { fill: #0b0b0b; font-size: 15px; font-weight: 600; }
+  .subtitle, .legend, .label { fill: #52514e; font-size: 12px; }
+  .tick { fill: #898781; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .value { fill: #0b0b0b; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ink-on-fill-light { fill: #ffffff; font-size: 11px; }
+  .ink-on-fill-dark { fill: #0b0b0b; font-size: 11px; }
+  .step0 { fill: #86b6ef; }
+  .step1 { fill: #3987e5; }
+  .step2 { fill: #1c5cab; }
+  .step3 { fill: #0d366b; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .title { fill: #f0efec; }
+    .subtitle, .legend, .label { fill: #c3c2b7; }
+    .value { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .step0 { fill: #184f95; }
+    .step1 { fill: #256abf; }
+    .step2 { fill: #5598e7; }
+    .step3 { fill: #9ec5f4; }
+  }
+</style>
+<rect class="surface" width="760" height="250" rx="8"/>
+<style>@media (prefers-color-scheme: dark) { .flip-ink { fill: #0b0b0b; } .flip-ink-0 { fill: #ffffff; } }</style>
+<text x="24.0" y="30.0" class="title" text-anchor="start" dominant-baseline="middle">Newest Minecraft version each sampled jar is marked for</text>
+<text x="24.0" y="50.0" class="subtitle" text-anchor="start" dominant-baseline="middle">As listed on Modrinth/Hangar; jars were not required to support the latest version</text>
+<rect x="24.0" y="71.0" width="10" height="10" rx="2" class="step0"/>
+<text x="39.0" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">26.x</text>
+<rect x="84.4" y="71.0" width="10" height="10" rx="2" class="step1"/>
+<text x="99.4" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">1.21.x</text>
+<rect x="155.2" y="71.0" width="10" height="10" rx="2" class="step2"/>
+<text x="170.2" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">1.20.x</text>
+<rect x="226.1" y="71.0" width="10" height="10" rx="2" class="step3"/>
+<text x="241.1" y="76.0" class="legend" text-anchor="start" dominant-baseline="middle">1.19.x or older</text>
+<line x1="170.0" y1="96.0" x2="170.0" y2="220.0" class="grid"/>
+<text x="170.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">0%</text>
+<line x1="300.0" y1="96.0" x2="300.0" y2="220.0" class="grid"/>
+<text x="300.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">25%</text>
+<line x1="430.0" y1="96.0" x2="430.0" y2="220.0" class="grid"/>
+<text x="430.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">50%</text>
+<line x1="560.0" y1="96.0" x2="560.0" y2="220.0" class="grid"/>
+<text x="560.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">75%</text>
+<line x1="690.0" y1="96.0" x2="690.0" y2="220.0" class="grid"/>
+<text x="690.0" y="234.0" class="tick" text-anchor="middle" dominant-baseline="middle">100%</text>
+<line x1="170.0" y1="96.0" x2="170.0" y2="220.0" class="axis"/>
+<text x="160.0" y="120.0" class="label" text-anchor="end" dominant-baseline="middle">Popular (n=500)</text>
+<path d="M170.0,108.0 H576.6 V132.0 H170.0 Z" class="step0"><title>Popular: 391 of 500 jars (78%) - 26.x</title></path>
+<text x="175.0" y="120.0" class="ink-on-fill-dark flip-ink-0" text-anchor="start" dominant-baseline="middle">78%</text>
+<path d="M578.6,108.0 H667.1 V132.0 H578.6 Z" class="step1"><title>Popular: 87 of 500 jars (17%) - 1.21.x</title></path>
+<text x="583.6" y="120.0" class="ink-on-fill-light" text-anchor="start" dominant-baseline="middle">17%</text>
+<path d="M669.1,108.0 H685.8 V132.0 H669.1 Z" class="step2"><title>Popular: 18 of 500 jars (4%) - 1.20.x</title></path>
+<path d="M687.8,108.0 H687.8 Q690.0,108.0 690.0,110.2 V129.8 Q690.0,132.0 687.8,132.0 H687.8 Z" class="step3"><title>Popular: 4 of 500 jars (1%) - 1.19.x or older</title></path>
+<text x="160.0" y="160.0" class="label" text-anchor="end" dominant-baseline="middle">Legacy (n=200)</text>
+<path d="M170.0,148.0 H240.2 V172.0 H170.0 Z" class="step0"><title>Legacy: 27 of 200 jars (14%) - 26.x</title></path>
+<text x="175.0" y="160.0" class="ink-on-fill-dark flip-ink-0" text-anchor="start" dominant-baseline="middle">14%</text>
+<path d="M242.2,148.0 H430.0 V172.0 H242.2 Z" class="step1"><title>Legacy: 73 of 200 jars (36%) - 1.21.x</title></path>
+<text x="247.2" y="160.0" class="ink-on-fill-light" text-anchor="start" dominant-baseline="middle">36%</text>
+<path d="M432.0,148.0 H622.4 V172.0 H432.0 Z" class="step2"><title>Legacy: 74 of 200 jars (37%) - 1.20.x</title></path>
+<text x="437.0" y="160.0" class="ink-on-fill-light flip-ink" text-anchor="start" dominant-baseline="middle">37%</text>
+<path d="M624.4,148.0 H686.0 Q690.0,148.0 690.0,152.0 V168.0 Q690.0,172.0 686.0,172.0 H624.4 Z" class="step3"><title>Legacy: 26 of 200 jars (13%) - 1.19.x or older</title></path>
+<text x="629.4" y="160.0" class="ink-on-fill-light flip-ink" text-anchor="start" dominant-baseline="middle">13%</text>
+<text x="160.0" y="200.0" class="label" text-anchor="end" dominant-baseline="middle">Random tail (n=300)</text>
+<path d="M170.0,188.0 H371.1 V212.0 H170.0 Z" class="step0"><title>Random tail: 116 of 300 jars (39%) - 26.x</title></path>
+<text x="175.0" y="200.0" class="ink-on-fill-dark flip-ink-0" text-anchor="start" dominant-baseline="middle">39%</text>
+<path d="M373.1,188.0 H650.1 V212.0 H373.1 Z" class="step1"><title>Random tail: 161 of 300 jars (54%) - 1.21.x</title></path>
+<text x="378.1" y="200.0" class="ink-on-fill-light" text-anchor="start" dominant-baseline="middle">54%</text>
+<path d="M652.1,188.0 H679.6 V212.0 H652.1 Z" class="step2"><title>Random tail: 17 of 300 jars (6%) - 1.20.x</title></path>
+<text x="657.1" y="200.0" class="ink-on-fill-light flip-ink" text-anchor="start" dominant-baseline="middle">6%</text>
+<path d="M681.6,188.0 H686.0 Q690.0,188.0 690.0,192.0 V208.0 Q690.0,212.0 686.0,212.0 H681.6 Z" class="step3"><title>Random tail: 6 of 300 jars (2%) - 1.19.x or older</title></path>
+</svg>
